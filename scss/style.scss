@@ -1,0 +1,172 @@
+/* Styling for Village at Prestonwood 20170101
+   License: Team Trosclair
+*/
+
+@import 'reset';
+
+
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+  background-color: #201d1c;
+}
+
+.logo {
+  //outline: 3px solid red;
+  //color: beige;
+  color:rgba(245,245,220,1);
+  float:left;
+  width: 25%;
+  font-size: 2em;
+  letter-spacing: .1em;
+  padding-left: 25px;
+  box-sizing: border-box;
+  z-index: 500;
+}
+
+.header-logo-container {
+  //  outline: 1px solid orange;
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  float: left;
+  height: 2.65em;
+  text-align: center;
+  //margin: 5px auto;
+
+}
+
+nav {
+  //outline: 1px solid yellow;
+  //background-color: rgba(0,0,0,0.5);
+  background-color: rgba(255,255,255,0.85);
+  //height: 50px;
+  font-size: 1.1em;
+  font-weight: 500;
+  position: fixed;
+  top:0;
+  width:100%;
+  letter-spacing: .2em;
+  padding-top:12px;
+  padding-bottom: 12px;
+  //padding-left: 10px;
+  //text-shadow: 1px 1px 1px black;
+  z-index: 100;
+}
+
+nav ul {
+  //outline: 1px solid orange;
+  text-align:right;
+  float: left;
+  width: 75%;
+  margin-top: 20px;
+}
+
+nav ul li {
+  //outline: 3px solid red;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav li a {
+  color: rgba(0,0,0,0.75);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  //background-color: rgba(18,78,121,0.5);
+  //  border-bottom-color: 2px solid beige;
+  background-color:rgba(0,0,0,0.7);
+  color: rgba(245,245,220,0.8);
+  //color: beige;
+  border-radius: 8px;
+  padding: 10px 0px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px black;
+
+
+}
+
+nav li a:hover .line {
+   height: 2px;
+   width: 100%;
+}
+
+.line {
+  background: black;
+  position: relative;
+  margin: 0 auto;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+.banner {
+  background-color: #ffffff;
+  background-image: url('./images/neighborhoodimg.png');
+  /* NO tiling; */
+  //border: 1px solid blue;
+  background-size: cover;
+  background-position:bottom;
+  height: 350px;
+  position:fixed;
+  top: 0;
+  //left:0;
+  padding-top: 150px;
+  width: 100%;
+  z-index: -1000;
+}
+
+.container {
+  //background-color: #201d1c;
+  background-color: #ffffff;
+  //background-color: rgba(0,0,0,0.5);
+  //outline: 2px solid red;
+  //margin-top: 35%;
+  margin-top: 29%;
+  width:100%;
+  overflow: auto;
+}
+
+footer {
+  //border: 1px solid red;
+  background-color: #333333;
+  clear: both;
+  color:rgba(245,245,220,1);
+  width: 100%;
+  letter-spacing: .2em;
+  line-height: 1.3em;
+  overflow: auto;
+  text-shadow: 1px 1px 1px black;
+  //margin: 10px 10px 10px 10px;
+
+}
+
+.footer-copyright {
+  text-align:center;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.footer-logo-container {
+  //outline: 1px solid orange;
+  float: left;
+  height: 5em;
+  text-align: center;
+  width: 33.333333%;
+  margin: 5px auto;
+}
+
+.footer-logo{
+  //border: 1px solid green;
+  max-height: 45%;
+  max-width: 75%;
+  //text-align: center;
+}
+
+@import 'media';

@@ -1,0 +1,436 @@
+/* Styling for Village at Prestonwood 20170101
+   License: Team Trosclair
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* End of CSS reset */
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+  background-color: #201d1c; }
+
+.logo {
+  color: beige;
+  float: left;
+  width: 25%;
+  font-size: 2em;
+  letter-spacing: .1em;
+  padding-left: 25px;
+  box-sizing: border-box;
+  z-index: 500; }
+
+.header-logo-container {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  float: left;
+  height: 2.65em;
+  text-align: center; }
+
+nav {
+  background-color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1em;
+  font-weight: 500;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  letter-spacing: .2em;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  z-index: 100; }
+
+nav ul {
+  text-align: right;
+  float: left;
+  width: 75%;
+  margin-top: 20px; }
+
+nav ul li {
+  display: inline-block;
+  padding: 10px; }
+
+nav li a {
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: none; }
+
+nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgba(245, 245, 220, 0.8);
+  border-radius: 8px;
+  padding: 10px 0px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px black; }
+
+nav li a:hover .line {
+  height: 2px;
+  width: 100%; }
+
+.line {
+  background: black;
+  position: relative;
+  margin: 0 auto;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  transition: all 0.5s ease-in-out; }
+
+.banner {
+  background-color: #ffffff;
+  background-image: url("./images/neighborhoodimg.png");
+  /* NO tiling; */
+  background-size: cover;
+  background-position: bottom;
+  height: 350px;
+  position: fixed;
+  top: 0;
+  padding-top: 150px;
+  width: 100%;
+  z-index: -1000; }
+
+.container {
+  background-color: #ffffff;
+  margin-top: 29%;
+  width: 100%;
+  overflow: auto; }
+
+footer {
+  background-color: #333333;
+  clear: both;
+  color: beige;
+  width: 100%;
+  letter-spacing: .2em;
+  line-height: 1.3em;
+  overflow: auto;
+  text-shadow: 1px 1px 1px black; }
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.footer-logo-container {
+  float: left;
+  height: 5em;
+  text-align: center;
+  width: 33.333333%;
+  margin: 5px auto; }
+
+.footer-logo {
+  max-height: 45%;
+  max-width: 75%; }
+
+/* Media queries for 55 Retirement Places - 20161009
+   License: Team Trosclair
+*/
+@media screen and (max-width: 1140px) {
+  .overlay .heading {
+    font-size: 1.6em; } }
+
+@media screen and (max-width: 1030px) {
+  .overlay .heading {
+    font-size: 1.4em; }
+  .scrollingBox {
+    width: 340px; } }
+
+@media screen and (max-width: 950px) {
+  .logo {
+    float: none;
+    width: auto; }
+  .logo h1 {
+    padding-left: 0px; }
+  nav ul {
+    text-align: left;
+    float: none;
+    width: auto; }
+  .communities {
+    clear: both;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: left;
+    float: none;
+    width: 70%; }
+  .communities .community {
+    padding: 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    width: auto;
+    margin: 0 auto; }
+  .img-container {
+    float: left;
+    margin: .65%;
+    width: 31%; }
+  .img-container img {
+    width: 100%; }
+  .box {
+    border-radius: 10px;
+    float: left;
+    height: 200px;
+    position: relative; }
+  .box-1 {
+    border-radius: 10px;
+    background-color: red;
+    background-image: url(./images/robson_ranch.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 1.5% 1.5% 3%;
+    width: 45.5%; }
+  .box-5 {
+    background-color: red;
+    background-image: url(./images/villas_in_the_park.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 1.5% 1.5% 3%;
+    width: 45.5%; }
+  .box-9 {
+    background-color: red;
+    background-image: url(./images/village_at_prestonwood.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 1.5% 1.5% 3%;
+    width: 45.5%; }
+  .box-13 {
+    background-color: red;
+    background-image: url(./images/the_legends.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 1.5% 1.5% 3%;
+    width: 45.5%; }
+  .box-2 {
+    background-color: green;
+    background-image: url(./images/frisco_lakes_clubhouse.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 2% 3% 1.5% 1.5%;
+    width: 45.5%; }
+  .box-6 {
+    background-color: green;
+    background-image: url(./images/ladera_mansfield.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 3% 1.5% 1.5%;
+    width: 45.5%; }
+  .box-10 {
+    background-color: green;
+    background-image: url(./images/villas_of_stone_glen.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 3% 1.5% 1.5%;
+    width: 45.5%; }
+  .box-14 {
+    background-color: green;
+    background-image: url(./images/cottages_at_lyndhurst.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 3% 1.5% 1.5%;
+    width: 45.5%; }
+  .box-3 {
+    background-color: orange;
+    background-image: url(./images/heritage_ranch.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 1.5% 1.5% 3%;
+    width: 45.5%; }
+  .box-7 {
+    background-color: orange;
+    background-image: url(./images/isabella_village_savannah.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 1.5% 1.5% 3%;
+    width: 45.5%; }
+  .box-11 {
+    background-color: orange;
+    background-image: url(./images/tuscan_hills.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 1.5% 1.5% 3%;
+    width: 45.5%; }
+  .box-4 {
+    background-color: blue;
+    background-image: url(./images/craig_ranch.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 3% 1.5% 1.5%;
+    width: 45.5%; }
+  .box-8 {
+    background-color: blue;
+    background-image: url(./images/villas_at_willow_grove.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 3% 1.5% 1.5%;
+    width: 45.5%; }
+  .box-12 {
+    background-color: blue;
+    background-image: url(./images/orchard_flower.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1.5% 3% 1.5% 1.5%;
+    width: 45.5%; }
+  .actives-container {
+    width: 100%; }
+  .actives-heading {
+    margin-top: 30px; }
+  .detail-container {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    text-align: left; }
+  .left-col {
+    float: none;
+    width: 100%; }
+  .sidebarBox {
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px 20px;
+    float: none;
+    width: 80%; }
+  .scrollingBox {
+    border-radius: 10px;
+    position: relative;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(245, 245, 220, 0.7);
+    line-height: 1.3em;
+    width: 100%; }
+  .scrollingImg {
+    float: left;
+    margin: 5px 10px; }
+  .scrollingImg img {
+    border-radius: 10px;
+    width: 100px;
+    height: 150px; }
+  .scrollingTxt {
+    padding: 10px; }
+  #headerBar {
+    height: 40px;
+    background: #333333;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 5px;
+    text-align: center; }
+  #headerBar h3 {
+    color: beige;
+    padding: 10px; }
+  .main-pic img {
+    border-radius: 8px;
+    max-width: 80%;
+    min-width: 200px;
+    min-height: 150px; }
+  .detail-left {
+    float: none;
+    width: auto; }
+  .detail-right {
+    float: none;
+    width: auto; }
+  .contact-heading {
+    font-size: 1.8em;
+    text-align: center;
+    letter-spacing: .1em; }
+  .contact-button {
+    border-radius: 8px;
+    display: block;
+    font-size: 1.0em;
+    font-weight: 700;
+    background: beige;
+    color: #124e79;
+    border: 2px solid transparent;
+    width: 12em;
+    margin: 2em auto 0;
+    padding: 0.9em 1.25em;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .1em; }
+  .contact-button:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    color: #f5f5f5; }
+  .overlay .heading {
+    font-size: 1.6em; }
+  .listings-button {
+    margin-top: 15px; } }
+
+@media screen and (max-width: 490px) {
+  .overlay .heading {
+    font-size: 1.2em; }
+  input::-webkit-input-placeholder {
+    font-size: .8em; }
+  input::-moz-placeholder {
+    font-size: .8em; }
+  input::-moz-input {
+    font-size: .8em; }
+  textarea::-webkit-input-placeholder {
+    font-size: .8em; }
+  textarea::-moz-placeholder {
+    font-size: .8em; } }
+
+@media screen and (max-width: 420px) {
+  .logo {
+    float: none;
+    width: auto; }
+  nav {
+    position: relative; }
+  nav ul {
+    text-align: left;
+    float: none;
+    width: auto; }
+  nav ul li {
+    display: block; }
+  .actives-heading {
+    margin-top: 10px; }
+  #app {
+    margin-top: 10px;
+    padding-top: 5px; }
+  .container-no-pic {
+    margin-top: 5px; }
+  .overlay .heading {
+    font-size: .9em; }
+  #form-submit {
+    margin-right: 50px; }
+  #form-footer {
+    font-size: .9em; } }
