@@ -54,10 +54,10 @@ body {
   background-color: #201d1c; }
 
 .logo {
-  color: beige;
+  color: black;
   float: left;
   width: 25%;
-  font-size: 2em;
+  font-size: 1.65em;
   letter-spacing: .1em;
   padding-left: 25px;
   box-sizing: border-box;
@@ -104,26 +104,13 @@ nav li a:hover {
   text-decoration: none;
   text-shadow: 0px 0px 0px black; }
 
-nav li a:hover .line {
-  height: 2px;
-  width: 100%; }
-
-.line {
-  background: black;
-  position: relative;
-  margin: 0 auto;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  transition: all 0.5s ease-in-out; }
-
 .banner {
   background-color: #ffffff;
-  background-image: url("./images/neighborhoodimg.png");
+  background-image: url("./images/1221706691.jpg");
   /* NO tiling; */
   background-size: cover;
   background-position: bottom;
-  height: 350px;
+  height: 400px;
   position: fixed;
   top: 0;
   padding-top: 150px;
@@ -132,9 +119,83 @@ nav li a:hover .line {
 
 .container {
   background-color: #ffffff;
-  margin-top: 29%;
+  margin-top: 35%;
   width: 100%;
   overflow: auto; }
+
+.communityDesc {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgba(245, 245, 220, 0.7);
+  font-size: 1.3em;
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  clear: both;
+  float: left;
+  width: 90%;
+  text-align: left;
+  margin-top: 2%; }
+
+.communityDesc ul {
+  margin-bottom: 1em; }
+
+.communityImg {
+  float: left;
+  max-width: 70%;
+  margin-right: 1.5em;
+  margin-top: .2em;
+  margin-bottom: .5em; }
+
+.contact-container {
+  height: 250px;
+  color: beige;
+  clear: both;
+  float: left;
+  width: 100%;
+  background: #201d1c url("./images/office-background.jpg") no-repeat center;
+  background-size: cover;
+  padding: 4em 1em; }
+
+.contact-heading {
+  color: beige;
+  font-size: 2.7em;
+  text-align: center;
+  letter-spacing: .1em; }
+
+.contact-button {
+  border-radius: 8px;
+  display: block;
+  font-size: 1.347em;
+  font-weight: 700;
+  width: 12em;
+  margin: 2em auto 0;
+  padding: 1em 0.5em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: #688d34;
+  border: 2px solid #f5f5dc;
+  color: #f5f5dc;
+  text-shadow: 3px 3px 3px black; }
+
+.contact-button:hover {
+  background: transparent;
+  border: 2px solid #f5f5dc;
+  border-radius: 8px;
+  color: #f5f5f5;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px black; }
+
+.vpw-heading {
+  background-color: #212121;
+  color: beige;
+  font-family: Gotham SSm A, Helvetica, Verdana, sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.3em;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 1.5%;
+  letter-spacing: 2px; }
 
 footer {
   background-color: #333333;
