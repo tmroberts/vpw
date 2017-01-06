@@ -170,6 +170,12 @@ nav li a:hover {
   font-size: 1.2em;
   font-weight: bold; }
 
+.smallText {
+  font-size: .5em;
+  font-style: italic;
+  line-height: 1.2em;
+  letter-spacing: .1em; }
+
 .contact-container {
   height: 250px;
   color: beige;
