@@ -86,11 +86,11 @@ nav li a:hover {
 }
 
 .banner {
+  //border: 1px solid blue;
   background-color: #ffffff;
   //background-image: url('./images/neighborhoodimg.png');
   background-image: url('./images/1221706691.jpg');
   /* NO tiling; */
-  //border: 1px solid blue;
   background-size: cover;
   background-position:bottom;
   //height: 350px;
@@ -104,12 +104,10 @@ nav li a:hover {
 }
 
 .container {
+  //outline: 2px solid red;
   //background-color: #201d1c;
   background-color: #ffffff;
   //background-color: rgba(0,0,0,0.5);
-  //outline: 2px solid red;
-  //margin-top: 35%;
-  //margin-top: 29%;
   margin-top: 35%;
   width:100%;
   overflow: auto;
@@ -242,6 +240,7 @@ nav li a:hover {
   //background: rgba(0, 0, 0, 0.5);
 //  background: linear-gradient(rgba(20,20,20, .9), rgba(20,20,20, .9));
   background: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .6));
+  background-color: rgba(255,255,255,0.85);
   //background: linear-gradient(rgba(0,20,20, .9), rgba(0,20,20, .7));
   //z-index: 100;
   color:rgba(245,245,220,1);
@@ -251,7 +250,6 @@ nav li a:hover {
   line-height: 1.8em;
   padding: 30px;
   text-align: center;
-  //margin-bottom: 1.5%;
   letter-spacing: 2px;
 }
 
