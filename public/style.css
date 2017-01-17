@@ -128,7 +128,7 @@ nav li a:hover {
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
-  margin: 10px 10px;
+  /*margin: 10px 10px;*/
   clear: both;
   width: 100%;
   text-align: left;
