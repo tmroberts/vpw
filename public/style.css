@@ -5,6 +5,11 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Exo);
+@import url(https://fonts.googleapis.com/css?family=Play);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,6 +54,142 @@ table {
   border-spacing: 0; }
 
 /* End of CSS reset */
+/* Styling for 55 Retirement Places Contact Form 20161009
+   License: Team Trosclair
+*/
+.form-container {
+  margin: 0 auto;
+  padding: 0;
+  background: #000 url("/images/header_test1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: auto; }
+
+.form-content {
+  margin-top: 140px; }
+
+form {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2em 4em 2em;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 1em #222;
+  border-radius: 10px; }
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none; }
+
+input[type="text"] {
+  padding: 20px;
+  margin: 2%;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 220, 0.8);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1em; }
+
+textarea:focus, input:focus {
+  background-color: beige;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bolder;
+  outline: none; }
+
+input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bolder; }
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bolder; }
+
+input::-moz-input {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bolder; }
+
+textarea {
+  display: block;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 2%;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 220, 0.8);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1em;
+  width: 100%; }
+
+textarea::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bolder; }
+
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Play', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bolder; }
+
+.form {
+  width: 50%;
+  margin: auto;
+  font-weight: bolder; }
+
+input[type="submit"] {
+  width: 150px;
+  padding: .8em;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #f5f5db;
+  margin-left: 30%;
+  border: 1px solid #fff;
+  cursor: pointer; }
+
+input[type="submit"]:hover {
+  background: #688d34;
+  color: #222; }
+
+.group:after {
+  display: table;
+  content: " ";
+  clear: both; }
+
+#form-input {
+  margin-top: 20px; }
+
+#form-submit {
+  margin-top: 30px; }
+
+#form-footer {
+  color: #f5f5db; }
+
 html, body {
   /*border: 3px solid yellow;  */
   font-family: Helvetica, Verdana, sans-serif;

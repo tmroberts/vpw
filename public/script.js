@@ -7,11 +7,11 @@ console.log('This is working');
 if (this.ClickTimes === undefined) this.ClickTimes = {};
 
 (function(context) {
-  
+
   (function($) {
       $(document).ready(function(){
           $(window).scroll(function(){
-              if ($(this).scrollTop() > 100) {
+              if ($(this).scrollTop() > 20) {
                   $('nav').fadeIn(500);
               } else {
                   $('nav').fadeOut(500);
@@ -27,8 +27,6 @@ if (this.ClickTimes === undefined) this.ClickTimes = {};
     console.log('starting!', context);
     var clickTimes = [];
     var clickLogUlDOM;
-
-
 
   }
 

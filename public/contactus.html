@@ -14,9 +14,12 @@
 
   <body>
     <nav>
-      <div class="logo">
-        <h2>Village at Prestonwood</h2>
-        <!--<img class="header-logo-container" src='images/logo.png'/>-->
+      <div class = 'left'>
+        <div class="logo">
+          <!--<h2>Village at Prestonwood</h2>-->
+          <!--<img class="header-logo-container" src='images/logo.png'/>-->
+          <img src="images/Logo.png" alt="">
+        </div>
       </div>
 
       <ul>
@@ -30,39 +33,44 @@
       </ul>
     </nav>
 
-    <section class="banner">
-      <!-- <img src='/images/header_test1.jpg'/> -->
-    </section>
-
-    <div class="container">
-
-    <div class="vpw-heading">
-      <ul>
-        <li>The Village at Prestonwood</li>
-        <li>A gated active adult community</li>
-        <li>For residents aged 55+</li>
-        <li>Low $200s - Mid $200s</li>
-        <li>Plano, TX</li>
-      </ul>
-    </div>
-
-    <div class = "communityDesc">
-      <div class = "communityImg" >
-        <img src='./images/homeimg2.png'/>
+    <div class='sect sectOne'>
+      <div id="brand-logo">
+          <img src="http://mjstokes.com/wp-content/themes/bkny/img/Logo.png" id="logo" alt="">
+          		<h1 id="brand-name">VILLAGE AT PRESTONWOOD</h1>
+          		<!-- <hr style="border-color: #fff; width:50%; border-width:5px; "> -->
+          		<div id="brand-subtitle">An Active Adult Community</div>
       </div>
 
-      <div class = "communityText">
-        <img src='./images/homebottom.png'>
-        <h1 id='about-title'>Active Adult Community</h1>
-        <p>This distinctive gated community offers low-maintenance living for active adults. Every aspect of our neighborhood and one story design is considered from your perspective.</p>
-
-        <p>With two and three bedroom floor plans, these homes are open and spacious, featuring a light and bright sunroom with an attached two car garage. You will feel right at home amid gracious landscaping and lovely surroundings.</p>
-
-        <p>Want to learn more about The Village at Prestonwood? Kathy Roberts with Team Trosclair is a Real Estate Agent who specializes in helping buyers and sellers in this community. She can help you find resale homes for sale. For more information or to schedule a showing please email kathy@hometexas.com or call (972) 370-5400.</p>
-
-      </div>
     </div>
 
+    <div class='sect sectThree'>
+      <div class = "communityDesc subSection">
+        <div class="form-content">
+        <!--FORM-->
+        <!--<form action = "#" method="post" id="registration">-->
+          <form action="contactform.js" method="post" id="contactme">
+          <div id="form-input">
+            <input type="text" name="name" id="name" placeholder="Enter your Name" >
+          </div>
+
+          <div id="form-input">
+            <input type="text" name="email" id="email" placeholder="Enter your Email Address">
+          </div>
+
+          <div id='form-input'>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone number">
+          </div>
+
+          <div id='form-input'>
+            <!--<input type="text" name="info" id="info" placeholder="Additional Information">-->
+            <textarea type="text" name="info" id="info" placeholder="Additional Information"></textarea>
+          </div>
+
+          <div id='form-submit'>
+          <input type="submit" name="submit" value="Submit" id="submit">
+        </div>
+      </div>
+    </div>
 
     <section class='contact-container'>
       <div class='contact-heading'>Questions About Village at Prestonwood? <br><br> Let&#8217;s talk!</div>
@@ -94,11 +102,9 @@
 
       </footer>
 
-    </div>
     <!-- Add jQuery script line here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="contactform.js"></script>
+
   </body>
-
-
 </html>
