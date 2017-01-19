@@ -1,7 +1,7 @@
 /* Styling for Village at Prestonwood 20170101
    License: Team Trosclair
 */
-   
+
 @import 'reset';
 @import 'form';
 
@@ -164,7 +164,7 @@ nav li a:hover {
   /*float: left;*/
   width: 100%;
   text-align: left;
-  margin-top: 06%;
+  /*margin-top: 06%;*/
   padding-top: 1em;
   background-size: cover;
   width: 100%;
@@ -254,7 +254,10 @@ nav li a:hover {
   background: #201d1c url("images/office-background.jpg") no-repeat center;
   background-size: cover;
   padding: 4em 0;
-  margin-top: 2em; }
+  /* this is causing the gap between background images
+  margin-top: 2em;
+  */
+}
 
 .contact-heading {
   color: beige;
