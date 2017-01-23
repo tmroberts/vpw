@@ -261,15 +261,6 @@ nav li a:hover {
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
-.subSection {
-  height: 100%;
-  /*background-color: rgba(0, 0, 0, 0.5) !important;
-  background-image: url(../images/image2.jpg);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;*/
-  /*background-color: rgba(255, 255, 255, 1) !important;*/ }
-
 .sectOne {
   background-image: url(images/image2.jpg);
   background-color: #D9C7B6;
@@ -308,6 +299,15 @@ nav li a:hover {
   justify-content: center;
   align-items: center;
   font-size: 1.5em; }
+
+.subSection {
+  height: 100%;
+  /*background-color: rgba(0, 0, 0, 0.5) !important;
+  background-image: url(../images/image2.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  /*background-color: rgba(255, 255, 255, 1) !important;*/ }
 
 /* Section 2 - Community */
 .communityDesc {
