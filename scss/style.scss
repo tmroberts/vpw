@@ -88,23 +88,26 @@ nav li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  clear:both;
 }
 
 .sectOne {
   background-image: url(images/image2.jpg);
   background-color: #D9C7B6;
   background-blend-mode: multiply;
-
+clear:both;
 }
 
 .sectTwo {
   background-image: url(images/image1.jpg);
   background-color: #D9C7B6;
+  clear:both;
 }
 
 .sectThree {
   background-image: url(images/image3.jpg);
   background-color: #D9C7B6;
+  clear:both;
 }
 
 #brand-logo {
@@ -148,21 +151,32 @@ nav li a:hover {
   /*background-color: rgba(255, 255, 255, 1) !important;*/
 }
 
+.content {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding: 55px 20px 20px 20px;
+    box-sizing: border-box;
+}
 
 /* Section 2 - Community */
 .communityDesc {
+  height: 100%;
   /*border: 1px solid blue;
   color: rgba(0,0,0,0.75);
   */
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+
+    //background-color: #201d1c;
+      //background-color: blue;
   color: beige;
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
   /*margin: 10px 10px;*/
-  clear:both;
+      margin: 0 auto;
+        clear:both;
   /*float: left;*/
-  width: 100%;
   text-align: left;
   /*margin-top: 06%;*/
   padding-top: 10%;
@@ -220,11 +234,121 @@ nav li a:hover {
   margin-bottom: 20px;
 }
 
+
+
+/* =========================== */
+/* Section 2 - About page */
+/* =========================== */
+.aboutDesc {
+  //border: 5px solid yellow;
+  color: rgba(0,0,0,0.75);
+  //background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+    background-color: #201d1c;
+    //background-color: blue;
+  color: beige;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  //margin: 10px 10px;
+      //margin: 0 auto;
+      clear:both;
+  //float: left;
+  text-align: left;
+  /*margin-top: 06%;*/
+  //padding: 2%;
+  //padding-bottom: 20%;
+  background-size: cover;
+  width: 100%;
+}
+
+.aboutImg {
+  //border: 1px solid red;
+  //border-radius: 8px;
+  //box-shadow: 3px 3px 2px 2px #555;
+  //float:left;
+	//width: 50%;
+  //margin-top: .2em;
+  //margin-right: 1.5em;
+  //margin-bottom:.5em;
+//  margin: 0px 20px 20px 20px;
+    //padding: 2%;
+}
+
+.aboutImg img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  //display: block;
+  float:right;
+  margin-right: 6%;
+}
+
+.aboutImg2 img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  //display: block;
+  float:right;
+  margin-right: 6%;
+  width: 18%;
+}
+
+.aboutText {
+  //border: 1px solid orange;
+  //float:right;
+	//width: 44%;
+  //margin-right: 2.8em;
+  //margin-top: .2em;
+  //margin-bottom: .5em;
+  text-align: left;
+  padding-left:  4%;
+  //text-indent: 1em;
+}
+
+//.aboutText img {
+  //border: 2px solid red;
+  //border-radius: 8px;
+  //box-shadow: 3px 3px 2px 2px #555;
+  //float: left;
+  //margin: 0px 35px 5px 0px;
+  //width: 35%;
+//}
+
+.aboutText p {
+  //border: 2px solid red;
+  font-size: .8em;
+  line-height: 1.4em;
+  letter-spacing: .1em;
+  padding-right: 6%;
+
+}
+
+.aboutText h1 {
+  margin: 20px 20px 10px 20px;
+}
+
+.aboutText h3 {
+  margin: 25px 20px 10px 20px;
+}
+
 #about-title {
-  //font-style: italic;
   font-size:  1.2em;
   font-weight: bold;
 }
+
+.mainParagraph {
+  font-size: .8em;
+  font-weight: bold;
+  padding: 0px 20px 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Section 3 */
@@ -244,6 +368,7 @@ nav li a:hover {
   text-align: center;
   letter-spacing: 2px;
   margin: 0 auto;
+  clear:both;
 }
 
 /* Section 4 - Contact Info */

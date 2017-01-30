@@ -259,20 +259,24 @@ nav li a:hover {
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  clear: both; }
 
 .sectOne {
   background-image: url(images/image2.jpg);
   background-color: #D9C7B6;
-  background-blend-mode: multiply; }
+  background-blend-mode: multiply;
+  clear: both; }
 
 .sectTwo {
   background-image: url(images/image1.jpg);
-  background-color: #D9C7B6; }
+  background-color: #D9C7B6;
+  clear: both; }
 
 .sectThree {
   background-image: url(images/image3.jpg);
-  background-color: #D9C7B6; }
+  background-color: #D9C7B6;
+  clear: both; }
 
 #brand-logo {
   /*  margin-top: 15%;*/
@@ -309,8 +313,16 @@ nav li a:hover {
   background-repeat: no-repeat;*/
   /*background-color: rgba(255, 255, 255, 1) !important;*/ }
 
+.content {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 55px 20px 20px 20px;
+  box-sizing: border-box; }
+
 /* Section 2 - Community */
 .communityDesc {
+  height: 100%;
   /*border: 1px solid blue;
   color: rgba(0,0,0,0.75);
   */
@@ -320,9 +332,9 @@ nav li a:hover {
   line-height: 1.3em;
   letter-spacing: .1em;
   /*margin: 10px 10px;*/
+  margin: 0 auto;
   clear: both;
   /*float: left;*/
-  width: 100%;
   text-align: left;
   /*margin-top: 06%;*/
   padding-top: 10%;
@@ -362,9 +374,59 @@ nav li a:hover {
 .communityText h1 {
   margin-bottom: 20px; }
 
+/* =========================== */
+/* Section 2 - About page */
+/* =========================== */
+.aboutDesc {
+  color: rgba(0, 0, 0, 0.75);
+  background-color: #201d1c;
+  color: beige;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  clear: both;
+  text-align: left;
+  /*margin-top: 06%;*/
+  background-size: cover;
+  width: 100%; }
+
+.aboutImg img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  float: right;
+  margin-right: 6%; }
+
+.aboutImg2 img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  float: right;
+  margin-right: 6%;
+  width: 18%; }
+
+.aboutText {
+  text-align: left;
+  padding-left: 4%; }
+
+.aboutText p {
+  font-size: .8em;
+  line-height: 1.4em;
+  letter-spacing: .1em;
+  padding-right: 6%; }
+
+.aboutText h1 {
+  margin: 20px 20px 10px 20px; }
+
+.aboutText h3 {
+  margin: 25px 20px 10px 20px; }
+
 #about-title {
   font-size: 1.2em;
   font-weight: bold; }
+
+.mainParagraph {
+  font-size: .8em;
+  font-weight: bold;
+  padding: 0px 20px 0px 20px; }
 
 /* Section 3 */
 .vpw-heading {
@@ -381,7 +443,8 @@ nav li a:hover {
   /*padding: 30px;*/
   text-align: center;
   letter-spacing: 2px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  clear: both; }
 
 /* Section 4 - Contact Info */
 .contact-container {
