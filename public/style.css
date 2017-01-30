@@ -378,15 +378,15 @@ nav li a:hover {
 /* Section 2 - About page */
 /* =========================== */
 .aboutDesc {
+  background-color: beige;
   color: rgba(0, 0, 0, 0.75);
-  background-color: #201d1c;
-  color: beige;
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
   clear: both;
   text-align: left;
-  /*margin-top: 06%;*/
+  padding-top: 1%;
+  padding: 2%;
   background-size: cover;
   width: 100%; }
 
@@ -394,12 +394,14 @@ nav li a:hover {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
   float: right;
-  margin-right: 6%; }
+  margin-right: 6%;
+  margin-left: 3%;
+  width: 45%; }
 
 .aboutImg2 img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
-  float: right;
+  float: left;
   margin-right: 6%;
   width: 18%; }
 

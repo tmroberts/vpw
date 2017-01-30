@@ -241,11 +241,14 @@ clear:both;
 /* =========================== */
 .aboutDesc {
   //border: 5px solid yellow;
+  background-color:rgba(245,245,220,1);
+  //background-color: white;
   color: rgba(0,0,0,0.75);
   //background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
-    background-color: #201d1c;
-    //background-color: blue;
-  color: beige;
+  //background-color: blue;
+
+  //background-color: #201d1c;
+  //color: beige;
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
@@ -254,9 +257,9 @@ clear:both;
       clear:both;
   //float: left;
   text-align: left;
-  /*margin-top: 06%;*/
-  //padding: 2%;
-  //padding-bottom: 20%;
+  padding-top: 1%;
+  padding: 2%;
+  //padding-bottom: 2%;
   background-size: cover;
   width: 100%;
 }
@@ -280,13 +283,15 @@ clear:both;
   //display: block;
   float:right;
   margin-right: 6%;
+  margin-left: 3%;
+  width: 45%;
 }
 
 .aboutImg2 img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
   //display: block;
-  float:right;
+  float:left;
   margin-right: 6%;
   width: 18%;
 }
