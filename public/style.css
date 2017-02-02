@@ -511,6 +511,10 @@ footer {
   margin-top: 25px;
   margin-bottom: 25px; }
 
+.footer-copyright a {
+  color: beige;
+  font-size: .8em; }
+
 .footer-logo-container {
   float: left;
   height: 6em;

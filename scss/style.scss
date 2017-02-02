@@ -443,6 +443,12 @@ footer {
   margin-bottom:25px;
 }
 
+.footer-copyright a {
+  //suppress underline????
+  color:rgba(245,245,220,1);
+  font-size: .8em;
+}
+
 .footer-logo-container {
   //outline: 1px solid orange;
   float: left;
