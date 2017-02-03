@@ -67,7 +67,7 @@ table {
   overflow: auto; }
 
 .form-content {
-  margin-top: 140px; }
+  margin-top: 75px; }
 
 form {
   background-color: rgba(0, 0, 0, 0.8);
@@ -386,7 +386,6 @@ nav li a:hover {
   clear: both;
   text-align: left;
   padding-top: 1%;
-  padding: 2%;
   background-size: cover;
   width: 100%; }
 
@@ -429,6 +428,21 @@ nav li a:hover {
   font-size: .8em;
   font-weight: bold;
   padding: 0px 20px 0px 20px; }
+
+/* =========================== */
+/* Section 2 - About page */
+/* =========================== */
+.formDesc {
+  background-color: beige;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 1.3em;
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  clear: both;
+  text-align: left;
+  padding-top: 1%;
+  background-size: cover;
+  width: 100%; }
 
 /* Section 3 */
 .vpw-heading {
