@@ -430,7 +430,7 @@ nav li a:hover {
   padding: 0px 20px 0px 20px; }
 
 /* =========================== */
-/* Section 2 - About page */
+/* Section 2 - contactus page */
 /* =========================== */
 .formDesc {
   color: rgba(0, 0, 0, 0.75);
@@ -440,7 +440,7 @@ nav li a:hover {
   letter-spacing: .1em;
   clear: both;
   text-align: left;
-  padding-top: 1%;
+  padding-top: .1%;
   background-size: cover;
   width: 100%; }
 
