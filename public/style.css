@@ -433,8 +433,8 @@ nav li a:hover {
 /* Section 2 - About page */
 /* =========================== */
 .formDesc {
-  background-color: beige;
   color: rgba(0, 0, 0, 0.75);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
