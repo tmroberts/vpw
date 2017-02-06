@@ -54,7 +54,8 @@ nav li a {
 }
 
 nav li a:hover {
-  color:rgba(245,245,220,1);
+  //color:rgba(245,245,220,1);
+  color: rgba(245,245,245,1);
   border-bottom: 2px solid beige;
   border-top: 2px solid beige;
   padding: 10px 0px;
@@ -123,6 +124,8 @@ clear:both;
 #brand-name {
   //Beige
   color:rgba(245,245,220,1);
+  //'WhiteSmoke'
+  //color: rgba(245,245,245,1);
   //`Ivory`
   //color:rgba(255,255,240,1);
   display: flex;
@@ -137,6 +140,8 @@ clear:both;
 #brand-subtitle {
   /*  margin-top: 15%;*/
   color:rgba(245,245,220,1);
+  //'WhiteSmoke'
+  //color: rgba(245,245,245,1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,7 +172,7 @@ clear:both;
   height: 100%;
   //background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
   //Beige
-  background-color:rgba(245,245,220,1);
+  //background-color:rgba(245,245,220,1);
   //`Ivory`
   background-color:rgba(255,255,240,1);
   color: rgba(0,0,0,0.8);
@@ -244,7 +249,11 @@ clear:both;
 /* =========================== */
 .aboutDesc {
   //border: 5px solid yellow;
-  background-color:rgba(245,245,220,1);
+  //background-color:rgba(245,245,220,1);
+  //`Ivory`
+  //background-color:rgba(255,255,240,1);
+  //`WhiteSmoke`
+  background-color:rgba(245,245,245,1);
   color: rgba(0,0,0,0.75);
   //background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
   //background-color: #201d1c;
@@ -464,7 +473,7 @@ footer {
 }
 
 .footer-copyright a {
-  //suppress underline????
+  text-decoration: none ;
   color:rgba(245,245,220,1);
     //color:rgba(255,255,240,1);
   font-size: .8em;

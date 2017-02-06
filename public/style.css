@@ -231,7 +231,7 @@ nav li a {
   text-decoration: none; }
 
 nav li a:hover {
-  color: beige;
+  color: whitesmoke;
   border-bottom: 2px solid beige;
   border-top: 2px solid beige;
   padding: 10px 0px;
@@ -323,7 +323,6 @@ nav li a:hover {
 /* Section 2 - Community */
 .communityDesc {
   height: 100%;
-  background-color: beige;
   background-color: ivory;
   color: rgba(0, 0, 0, 0.8);
   font-size: 1.3em;
@@ -376,7 +375,7 @@ nav li a:hover {
 /* Section 2 - About page */
 /* =========================== */
 .aboutDesc {
-  background-color: beige;
+  background-color: whitesmoke;
   color: rgba(0, 0, 0, 0.75);
   font-size: 1.3em;
   line-height: 1.3em;
@@ -524,6 +523,7 @@ footer {
   margin-bottom: 25px; }
 
 .footer-copyright a {
+  text-decoration: none;
   color: beige;
   font-size: .8em; }
 
