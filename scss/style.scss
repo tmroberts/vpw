@@ -49,12 +49,12 @@ nav ul li {
 
 nav li a {
   color: rgba(0, 0, 0, 0.75);
-  //color: beige;
+  //color:rgba(245,245,220,1);
   text-decoration: none;
 }
 
 nav li a:hover {
-  color: beige;
+  color:rgba(245,245,220,1);
   border-bottom: 2px solid beige;
   border-top: 2px solid beige;
   padding: 10px 0px;
@@ -121,7 +121,10 @@ clear:both;
 }
 
 #brand-name {
-  color: beige;
+  //Beige
+  color:rgba(245,245,220,1);
+  //`Ivory`
+  //color:rgba(255,255,240,1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,7 +136,7 @@ clear:both;
 
 #brand-subtitle {
   /*  margin-top: 15%;*/
-  color: beige;
+  color:rgba(245,245,220,1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,20 +165,20 @@ clear:both;
 /* Section 2 - Community */
 .communityDesc {
   height: 100%;
-  /*border: 1px solid blue;
-  color: rgba(0,0,0,0.75);
-  */
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+  //background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+  //Beige
+  background-color:rgba(245,245,220,1);
+  //`Ivory`
+  background-color:rgba(255,255,240,1);
+  color: rgba(0,0,0,0.8);
 
-    //background-color: #201d1c;
-      //background-color: blue;
-  color: beige;
+  //background-color: rgba(240, 240, 240, 1);
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
   /*margin: 10px 10px;*/
-      margin: 0 auto;
-        clear:both;
+  margin: 0 auto;
+  clear:both;
   /*float: left;*/
   text-align: left;
   /*margin-top: 06%;*/
@@ -242,13 +245,9 @@ clear:both;
 .aboutDesc {
   //border: 5px solid yellow;
   background-color:rgba(245,245,220,1);
-  //background-color: white;
   color: rgba(0,0,0,0.75);
   //background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
-  //background-color: blue;
-
   //background-color: #201d1c;
-  //color: beige;
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
@@ -258,8 +257,6 @@ clear:both;
   //float: left;
   text-align: left;
   padding-top: 1%;
-  //padding: 2%;
-  //padding-bottom: 2%;
   background-size: cover;
   width: 100%;
 }
@@ -381,7 +378,10 @@ clear:both;
   /*border: 1px solid orange;*/
   padding-top: 15%;
   padding-bottom: 15%;
-  color: beige;
+  //Beige
+  color:rgba(245,245,220,1);
+  //Ivory
+  //color:rgba(255,255,240,1);
   font-family: Gotham SSm A, Helvetica, Verdana, sans-serif;
   font-size: 1.7em;
   font-weight: 300;
@@ -396,7 +396,8 @@ clear:both;
 /* Section 4 - Contact Info */
 .contact-container {
   height: 250px;
-  color: beige;
+  color:rgba(245,245,220,1);
+  //color:rgba(255,255,240,1);
   clear: both;
   float: left;
   width: 100%;
@@ -409,7 +410,8 @@ clear:both;
 }
 
 .contact-heading {
-  color: beige;
+  color:rgba(245,245,220,1);
+    //color:rgba(255,255,240,1);
   font-size: 2.5em;
   text-align: center;
   letter-spacing: .1em; }
@@ -444,7 +446,8 @@ footer {
   background-color: #333333;
   background-size: cover;
   clear: both;
-  color: beige;
+  color:rgba(245,245,220,1);
+    //color:rgba(255,255,240,1);
   font-size: 1em;
   width: 100%;
   letter-spacing: .2em;
@@ -463,6 +466,7 @@ footer {
 .footer-copyright a {
   //suppress underline????
   color:rgba(245,245,220,1);
+    //color:rgba(255,255,240,1);
   font-size: .8em;
 }
 

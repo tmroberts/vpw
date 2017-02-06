@@ -323,11 +323,9 @@ nav li a:hover {
 /* Section 2 - Community */
 .communityDesc {
   height: 100%;
-  /*border: 1px solid blue;
-  color: rgba(0,0,0,0.75);
-  */
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
-  color: beige;
+  background-color: beige;
+  background-color: ivory;
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
