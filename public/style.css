@@ -374,7 +374,7 @@ nav li a:hover {
 /* =========================== */
 /* Section 2 - About page */
 /* =========================== */
-.aboutDesc {
+.dynamicDesc {
   background-color: whitesmoke;
   color: rgba(0, 0, 0, 0.8);
   font-size: 1.3em;
@@ -386,7 +386,7 @@ nav li a:hover {
   background-size: cover;
   width: 100%; }
 
-.aboutImg img {
+.dynamicImg img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
   float: right;
@@ -394,30 +394,30 @@ nav li a:hover {
   margin-left: 3%;
   width: 45%; }
 
-.aboutImg2 img {
+.dynamicImg2 img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
   float: left;
   margin-right: 6%;
   width: 18%; }
 
-.aboutText {
+.dynamicText {
   text-align: left;
   padding-left: 4%; }
 
-.aboutText p {
+.dynamicText p {
   font-size: .8em;
   line-height: 1.4em;
   letter-spacing: .1em;
   padding-right: 6%; }
 
-.aboutText h1 {
+.dynamicText h1 {
   margin: 20px 20px 10px 20px; }
 
-.aboutText h3 {
+.dynamicText h3 {
   margin: 25px 20px 10px 20px; }
 
-#about-title {
+#dynamic-title {
   font-size: 1.2em;
   font-weight: bold; }
 

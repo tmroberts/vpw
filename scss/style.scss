@@ -247,7 +247,7 @@ clear:both;
 /* =========================== */
 /* Section 2 - About page */
 /* =========================== */
-.aboutDesc {
+.dynamicDesc {
   //border: 5px solid yellow;
   //Beige
   //background-color:rgba(245,245,220,1);
@@ -271,7 +271,7 @@ clear:both;
   width: 100%;
 }
 
-.aboutImg {
+.dynamicImg {
   //border: 1px solid red;
   //border-radius: 8px;
   //box-shadow: 3px 3px 2px 2px #555;
@@ -284,7 +284,7 @@ clear:both;
     //padding: 2%;
 }
 
-.aboutImg img {
+.dynamicImg img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
   //display: block;
@@ -294,7 +294,7 @@ clear:both;
   width: 45%;
 }
 
-.aboutImg2 img {
+.dynamicImg2 img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
   //display: block;
@@ -303,7 +303,7 @@ clear:both;
   width: 18%;
 }
 
-.aboutText {
+.dynamicText {
   //border: 1px solid orange;
   //float:right;
 	//width: 44%;
@@ -315,7 +315,7 @@ clear:both;
   //text-indent: 1em;
 }
 
-//.aboutText img {
+//.dynamicText img {
   //border: 2px solid red;
   //border-radius: 8px;
   //box-shadow: 3px 3px 2px 2px #555;
@@ -324,7 +324,7 @@ clear:both;
   //width: 35%;
 //}
 
-.aboutText p {
+.dynamicText p {
   //border: 2px solid red;
   font-size: .8em;
   line-height: 1.4em;
@@ -333,15 +333,15 @@ clear:both;
 
 }
 
-.aboutText h1 {
+.dynamicText h1 {
   margin: 20px 20px 10px 20px;
 }
 
-.aboutText h3 {
+.dynamicText h3 {
   margin: 25px 20px 10px 20px;
 }
 
-#about-title {
+#dynamic-title {
   font-size:  1.2em;
   font-weight: bold;
 }
