@@ -323,7 +323,7 @@ nav li a:hover {
 /* Section 2 - Community */
 .communityDesc {
   height: 100%;
-  background-color: ivory;
+  background-color: whitesmoke;
   color: rgba(0, 0, 0, 0.8);
   font-size: 1.3em;
   line-height: 1.3em;
@@ -376,7 +376,7 @@ nav li a:hover {
 /* =========================== */
 .aboutDesc {
   background-color: whitesmoke;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
