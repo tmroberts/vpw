@@ -392,14 +392,14 @@ nav li a:hover {
   float: right;
   margin-right: 6%;
   margin-left: 3%;
-  width: 45%; }
+  width: 12%; }
 
 .dynamicImg2 img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
   float: left;
   margin-right: 6%;
-  width: 18%; }
+  width: 12%; }
 
 .dynamicText {
   text-align: left;
