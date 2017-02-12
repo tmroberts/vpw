@@ -374,9 +374,18 @@ nav li a:hover {
 .communityText h1 {
   margin-bottom: 20px; }
 
-/* =========================== */
-/* Section 2 - About page */
-/* =========================== */
+/* =================================== */
+/* Section 2 - Dynamic content section */
+/* =================================== */
+.container-section2 {
+  max-width: 75%;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
+  margin-bottom: 40px;
+  margin-left: 15%;
+  text-align: left; }
+
 .dynamicDesc {
   background-color: whitesmoke;
   color: rgba(0, 0, 0, 0.8);
@@ -386,6 +395,7 @@ nav li a:hover {
   clear: both;
   text-align: left;
   padding-top: 1%;
+  padding-bottom: 1%;
   background-size: cover;
   width: 100%; }
 
@@ -415,10 +425,10 @@ nav li a:hover {
   padding-right: 6%; }
 
 .dynamicText h1 {
-  margin: 20px 20px 10px 20px; }
+  margin: 20px 20px 10px 0px; }
 
 .dynamicText h3 {
-  margin: 25px 20px 10px 20px; }
+  margin: 25px 20px 10px 0px; }
 
 #dynamic-title {
   font-size: 1.2em;
@@ -429,6 +439,14 @@ nav li a:hover {
   font-weight: bold;
   padding: 0px 20px 0px 20px; }
 
+.abbeyImg img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  float: right;
+  margin-right: 6%;
+  margin-left: 3%;
+  width: 15%; }
+
 .galleryImg img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
@@ -436,6 +454,56 @@ nav li a:hover {
   margin-right: 6%;
   margin-left: 3%;
   width: 12%; }
+
+.abbeyParagraph {
+  font-size: .8em;
+  font-weight: bold;
+  padding: 0px 20px 30px 20px; }
+
+.abbeyParagraph {
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  padding: 0px 20px 30px 0px; }
+
+#tours {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 5%; }
+
+#abbey-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 3%; }
+
+#abbey-tour {
+  padding-top: 4%; }
+
+.canterburyParagraph {
+  font-size: .8em;
+  font-weight: bold;
+  padding: 0px 20px 40px 20px; }
+
+#canterbury-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 10%;
+  padding-bottom: 1%; }
+
+.canterburyParagraph {
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  padding: 0px 20px 20px 20px; }
+
+.canterburyImg img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  float: left;
+  margin-right: 4%;
+  margin-bottom: 5%;
+  width: 15%; }
+
+#canterbury-tour {
+  padding-top: 4%; }
 
 .galleryImg2 img {
   border-radius: 8px;

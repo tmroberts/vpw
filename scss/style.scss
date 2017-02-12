@@ -172,6 +172,13 @@ clear:both;
 }
 
 /* Section 2 - Community */
+
+//.container-section2 {
+//  margin: 0 auto;
+//  width: 75%;
+//
+
+
 .communityDesc {
   height: 100%;
   //background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
@@ -248,11 +255,24 @@ clear:both;
 
 
 
-/* =========================== */
-/* Section 2 - About page */
-/* =========================== */
+/* =================================== */
+/* Section 2 - Dynamic content section */
+/* =================================== */
+
+.container-section2 {
+  //outline: 1px solid yellow;
+  max-width:75%;
+  margin:0 auto;
+  overflow:auto;
+  clear:both;
+  //margin-top:40px;
+  margin-bottom: 40px;
+  margin-left:15%;
+  text-align: left;
+}
+
 .dynamicDesc {
-  //border: 5px solid yellow;
+  //border: 2px solid red;
   //Beige
   //background-color:rgba(245,245,220,1);
   //`WhiteSmoke`
@@ -267,10 +287,11 @@ clear:both;
   letter-spacing: .1em;
   //margin: 10px 10px;
       //margin: 0 auto;
-      clear:both;
+  clear:both;
   //float: left;
   text-align: left;
   padding-top: 1%;
+  padding-bottom: 1%;
   background-size: cover;
   width: 100%;
 }
@@ -317,6 +338,7 @@ clear:both;
   text-align: left;
   padding-left:  4%;
   //text-indent: 1em;
+
 }
 
 
@@ -339,11 +361,11 @@ clear:both;
 }
 
 .dynamicText h1 {
-  margin: 20px 20px 10px 20px;
+  margin: 20px 20px 10px 0px;
 }
 
 .dynamicText h3 {
-  margin: 25px 20px 10px 20px;
+  margin: 25px 20px 10px 0px;
 }
 
 #dynamic-title {
@@ -352,11 +374,21 @@ clear:both;
 }
 
 .mainParagraph {
+  //border: 5px solid red;
   font-size: .8em;
   font-weight: bold;
   padding: 0px 20px 0px 20px;
 }
 
+.abbeyImg img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  //display: block;
+  float:right;
+  margin-right: 6%;
+  margin-left: 3%;
+  width: 15%;
+}
 
 .galleryImg img {
   border-radius: 8px;
@@ -366,6 +398,72 @@ clear:both;
   margin-right: 6%;
   margin-left: 3%;
   width: 12%;
+}
+
+.abbeyParagraph {
+  font-size: .8em;
+  font-weight: bold;
+  padding: 0px 20px 30px 20px;
+}
+
+.abbeyParagraph {
+  //font-size: .8em;
+  //font-size: 1.3em;
+  //font-weight: bold;
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  padding: 0px 20px 30px 0px;
+}
+
+#tours {
+  font-size:  1.3em;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+#abbey-title {
+  font-size:  1.1em;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+#abbey-tour {
+  padding-top: 4%;
+}
+
+.canterburyParagraph {
+  font-size: .8em;
+  font-weight: bold;
+  padding: 0px 20px 40px 20px;
+}
+
+#canterbury-title {
+  font-size:  1.1em;
+  font-weight: bold;
+  margin-top: 10%;
+  padding-bottom: 1%;
+}
+
+.canterburyParagraph {
+  //font-size: .8em;
+  //font-weight: bold;
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  padding: 0px 20px 20px 20px;
+}
+
+.canterburyImg img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  //display: block;
+  float:left;
+  margin-right: 4%;
+  margin-bottom: 5%;
+  width: 15%;
+}
+
+#canterbury-tour {
+  padding-top: 4%;
 }
 
 .galleryImg2 img {
