@@ -9,6 +9,8 @@ app.get("/", function(req, res) {
   });
 });
 
+// If PROD/heroku use process.env.PORT
+// If localhost use the hard-coded port 5555 ... hence the 'OR'
 var port = process.env.PORT || 5555;
 app.listen(port, function() {
   console.log('listening on port.', port);
