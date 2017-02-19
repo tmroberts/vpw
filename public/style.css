@@ -377,13 +377,25 @@ nav li a:hover {
 /* =================================== */
 /* Section 2 - Dynamic content section */
 /* =================================== */
+.top-image {
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+
+.top-image img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  height: 450px;
+  max-width: 100%;
+  text-align: center; }
+
 .container-section2 {
-  max-width: 75%;
+  max-width: 85%;
   margin: 0 auto;
   overflow: auto;
   clear: both;
   margin-bottom: 40px;
-  margin-left: 15%;
   text-align: left; }
 
 .dynamicDesc {
@@ -405,14 +417,14 @@ nav li a:hover {
   float: right;
   margin-right: 6%;
   margin-left: 3%;
-  width: 45%; }
+  max-width: 45%; }
 
 .dynamicImg2 img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
   float: left;
   margin-right: 6%;
-  width: 15%; }
+  max-width: 30%; }
 
 .dynamicText {
   text-align: left;
@@ -425,13 +437,21 @@ nav li a:hover {
   padding-right: 6%; }
 
 .dynamicText h1 {
+  font-size: 1.2em;
+  font-weight: bold;
   margin: 20px 20px 10px 0px; }
 
 .dynamicText h3 {
+  font-size: 1em;
+  font-weight: bold;
   margin: 25px 20px 10px 0px; }
 
 #dynamic-title {
   font-size: 1.2em;
+  font-weight: bold; }
+
+#dynamic-subtitle {
+  font-size: 1em;
   font-weight: bold; }
 
 .mainParagraph {
