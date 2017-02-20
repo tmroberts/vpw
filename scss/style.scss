@@ -9,6 +9,8 @@ html, body {
   /*border: 3px solid yellow;  */
   font-family: Helvetica, Verdana, sans-serif;
   background-color: #201d1c;
+  //'WhiteSmoke'
+  background-color: rgba(245,245,245,1);
   height: 100%;
   margin: 0;
   /*width: 100%;*/
@@ -100,7 +102,7 @@ nav li a:hover {
   background-image: url(images/image2.jpg);
   background-color: #D9C7B6;
   background-blend-mode: multiply;
-clear:both;
+  clear:both;
 }
 
 .sectTwo {
@@ -259,24 +261,45 @@ clear:both;
 /* Section 2 - Dynamic content section */
 /* =================================== */
 
+.top-image-container {
+  //border: 2px solid red;
+  //Beige
+  background-color:rgba(245,245,220,1);
+  clear:both;
+  overflow:auto;
+  //height: 70%;
+  //width: 100%;
+
+    width: 100%;
+    height: 500px;
+    //background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+    background-image: url('./images/11_Grounds2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    //margin-top: 1%;
+}
+
 .top-image {
-  //border: 1px solid red;
-	width: 100%;
-  text-align: center;
-  //margin: 0 auto;
-  margin-top: 1em;
+  //border: 4px solid red;
+  //text-align: center;
+  //margin-top: 1em;
   //margin-right: 1.5em;
-  margin-bottom:2em;
+  //margin-bottom:2em;
   //margin: 0px 0px 20px 20px;
+  width: 100%;
+
+
+
 }
 
 .top-image img {
-  //border: 1px solid red;
-  border-radius: 8px;
-  box-shadow: 3px 3px 2px 2px #555;
-  height: 450px;
+  //border: 4px solid red;
+  //height: 450px;
+  //max-width: 100%;
+  //text-align: center;
   max-width: 100%;
-  text-align: center;
+  width:100%;
   //margin: 0 auto;
   //margin-top: .2em;
   //margin-right: 1.5em;
@@ -309,19 +332,6 @@ clear:both;
   //margin: 0px 0px 20px 20px;
 }
 
-
-.container-section2 {
-  //outline: 1px solid yellow;
-  max-width:85%;
-  margin:0 auto;
-  overflow:auto;
-  clear:both;
-  //margin-top:40px;
-  margin-bottom: 40px;
-  //margin-left:15%;
-  text-align: left;
-}
-
 .dynamicDesc {
   //border: 2px solid red;
   //Beige
@@ -337,7 +347,7 @@ clear:both;
   line-height: 1.3em;
   letter-spacing: .1em;
   //margin: 10px 10px;
-      //margin: 0 auto;
+  //margin: 0 auto;
   clear:both;
   //float: left;
   text-align: left;
@@ -345,6 +355,18 @@ clear:both;
   padding-bottom: 1%;
   background-size: cover;
   width: 100%;
+}
+
+.container-section2 {
+  //outline: 1px solid yellow;
+  max-width:85%;
+  margin:0 auto;
+  overflow:auto;
+  clear:both;
+  //margin-top:40px;
+  margin-bottom: 40px;
+  //margin-left:15%;
+  text-align: left;
 }
 
 .dynamicImg {
@@ -415,22 +437,31 @@ clear:both;
 
 .dynamicText p {
   //border: 2px solid red;
-  font-size: .8em;
-  line-height: 1.4em;
-  letter-spacing: .1em;
+  //font-size: .8em;
+  //line-height: 1.4em;
+  //letter-spacing: .1em;
+  font-size: .9em;
+  font-weight: lighter;
+  line-height: 200%;
+  letter-spacing: .05em;
   padding-right: 6%;
 }
 
 .dynamicText h1 {
-  font-size:  1.2em;
-  font-weight: bold;
-  margin: 20px 20px 10px 0px;
+  font-size:  1.7em;
+  font-weight: normal;
+  letter-spacing: .05em;
+  line-height: 200%;
+  margin: 20px 20px 20px 0px;
 }
 
 .dynamicText h3 {
   font-size:  1em;
-  font-weight: bold;
-  margin: 25px 20px 10px 0px;
+  //font-weight: bold;
+  font-weight: normal;
+  letter-spacing: .05em;
+  line-height: 200%;
+  margin: 20px 20px 10px 0px;
 }
 
 #dynamic-title {

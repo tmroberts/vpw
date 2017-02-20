@@ -194,6 +194,7 @@ html, body {
   /*border: 3px solid yellow;  */
   font-family: Helvetica, Verdana, sans-serif;
   background-color: #201d1c;
+  background-color: whitesmoke;
   height: 100%;
   margin: 0;
   /*width: 100%;*/ }
@@ -377,18 +378,23 @@ nav li a:hover {
 /* =================================== */
 /* Section 2 - Dynamic content section */
 /* =================================== */
-.top-image {
+.top-image-container {
+  background-color: beige;
+  clear: both;
+  overflow: auto;
   width: 100%;
-  text-align: center;
-  margin-top: 1em;
-  margin-bottom: 2em; }
+  height: 500px;
+  background-image: url("./images/11_Grounds2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+.top-image {
+  width: 100%; }
 
 .top-image img {
-  border-radius: 8px;
-  box-shadow: 3px 3px 2px 2px #555;
-  height: 450px;
   max-width: 100%;
-  text-align: center; }
+  width: 100%; }
 
 .ammenities-image {
   width: 100%;
@@ -403,14 +409,6 @@ nav li a:hover {
   max-width: 75%;
   text-align: center; }
 
-.container-section2 {
-  max-width: 85%;
-  margin: 0 auto;
-  overflow: auto;
-  clear: both;
-  margin-bottom: 40px;
-  text-align: left; }
-
 .dynamicDesc {
   background-color: whitesmoke;
   color: rgba(0, 0, 0, 0.8);
@@ -423,6 +421,14 @@ nav li a:hover {
   padding-bottom: 1%;
   background-size: cover;
   width: 100%; }
+
+.container-section2 {
+  max-width: 85%;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
+  margin-bottom: 40px;
+  text-align: left; }
 
 .dynamicImg img {
   border-radius: 8px;
@@ -452,20 +458,25 @@ nav li a:hover {
   letter-spacing: .1em; }
 
 .dynamicText p {
-  font-size: .8em;
-  line-height: 1.4em;
-  letter-spacing: .1em;
+  font-size: .9em;
+  font-weight: lighter;
+  line-height: 200%;
+  letter-spacing: .05em;
   padding-right: 6%; }
 
 .dynamicText h1 {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin: 20px 20px 10px 0px; }
+  font-size: 1.7em;
+  font-weight: normal;
+  letter-spacing: .05em;
+  line-height: 200%;
+  margin: 20px 20px 20px 0px; }
 
 .dynamicText h3 {
   font-size: 1em;
-  font-weight: bold;
-  margin: 25px 20px 10px 0px; }
+  font-weight: normal;
+  letter-spacing: .05em;
+  line-height: 200%;
+  margin: 20px 20px 10px 0px; }
 
 #dynamic-title {
   font-size: 1.2em;
