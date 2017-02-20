@@ -284,6 +284,32 @@ clear:both;
   //margin: 0px 0px 20px 20px;
 }
 
+.ammenities-image {
+  //border: 1px solid red;
+	width: 100%;
+  text-align: center;
+  //margin: 0 auto;
+  margin-top: 1em;
+  //margin-right: 1.5em;
+  margin-bottom:2em;
+  //margin: 0px 0px 20px 20px;
+}
+
+.ammenities-image img {
+  //border: 1px solid red;
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  height: 450px;
+  max-width: 75%;
+  text-align: center;
+  //margin: 0 auto;
+  //margin-top: .2em;
+  //margin-right: 1.5em;
+  //margin-bottom:.5em;
+  //margin: 0px 0px 20px 20px;
+}
+
+
 .container-section2 {
   //outline: 1px solid yellow;
   max-width:85%;
@@ -369,6 +395,13 @@ clear:both;
   padding-left:  4%;
   //text-indent: 1em;
 }
+
+.smallText {
+  font-size: .6em;
+  line-height: 1em;
+  letter-spacing: .1em;
+}
+
 
 
 //.dynamicText img {

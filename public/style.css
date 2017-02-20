@@ -390,6 +390,19 @@ nav li a:hover {
   max-width: 100%;
   text-align: center; }
 
+.ammenities-image {
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+
+.ammenities-image img {
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px 2px #555;
+  height: 450px;
+  max-width: 75%;
+  text-align: center; }
+
 .container-section2 {
   max-width: 85%;
   margin: 0 auto;
@@ -432,6 +445,11 @@ nav li a:hover {
 .dynamicText {
   text-align: left;
   padding-left: 4%; }
+
+.smallText {
+  font-size: .6em;
+  line-height: 1em;
+  letter-spacing: .1em; }
 
 .dynamicText p {
   font-size: .8em;
