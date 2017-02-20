@@ -67,7 +67,7 @@ table {
   overflow: auto; }
 
 .form-content {
-  margin-top: 75px; }
+  margin-top: 5em; }
 
 form {
   background-color: rgba(0, 0, 0, 0.8);
@@ -424,7 +424,7 @@ nav li a:hover {
 
 .top-image {
   text-align: center;
-  margin-top: 1em;
+  margin-top: 6em;
   width: 100%; }
 
 .top-image img {
