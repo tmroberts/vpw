@@ -378,7 +378,7 @@ nav li a:hover {
 /* =================================== */
 /* Section 2 - Dynamic content section */
 /* =================================== */
-.top-image-container {
+.top-image-index {
   background-color: beige;
   clear: both;
   overflow: auto;
@@ -389,12 +389,48 @@ nav li a:hover {
   background-repeat: no-repeat;
   background-position: 50% 50%; }
 
+.top-image-about {
+  background-color: beige;
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  height: 500px;
+  background-image: url("./images/1221706854.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 10%; }
+
+.top-image-homes {
+  background-color: beige;
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  height: 500px;
+  background-image: url("./images/12_Home_Exterior.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%; }
+
+.top-image-amenities {
+  background-color: beige;
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  height: 500px;
+  background-image: url("./images/amenities.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%; }
+
 .top-image {
+  text-align: center;
+  margin-top: 1em;
   width: 100%; }
 
 .top-image img {
-  max-width: 100%;
-  width: 100%; }
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto; }
 
 .ammenities-image {
   width: 100%;
@@ -508,14 +544,11 @@ nav li a:hover {
   width: 12%; }
 
 .abbeyParagraph {
-  font-size: .8em;
-  font-weight: bold;
-  padding: 0px 20px 30px 20px; }
-
-.abbeyParagraph {
-  line-height: 1.3em;
-  letter-spacing: .1em;
-  padding: 0px 20px 30px 0px; }
+  font-size: .9em;
+  font-weight: lighter;
+  line-height: 200%;
+  letter-spacing: .05em;
+  padding-right: 6%; }
 
 #tours {
   font-size: 1.3em;
@@ -531,20 +564,17 @@ nav li a:hover {
   padding-top: 4%; }
 
 .canterburyParagraph {
-  font-size: .8em;
-  font-weight: bold;
-  padding: 0px 20px 40px 20px; }
+  font-size: .9em;
+  font-weight: lighter;
+  line-height: 200%;
+  letter-spacing: .05em;
+  padding-right: 6%; }
 
 #canterbury-title {
   font-size: 1.1em;
   font-weight: bold;
   margin-top: 10%;
   padding-bottom: 1%; }
-
-.canterburyParagraph {
-  line-height: 1.3em;
-  letter-spacing: .1em;
-  padding: 0px 20px 20px 20px; }
 
 .canterburyImg img {
   border-radius: 8px;

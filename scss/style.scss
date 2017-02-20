@@ -261,35 +261,86 @@ nav li a:hover {
 /* Section 2 - Dynamic content section */
 /* =================================== */
 
-.top-image-container {
+.top-image-index {
   //border: 2px solid red;
   //Beige
   background-color:rgba(245,245,220,1);
   clear:both;
   overflow:auto;
-  //height: 70%;
-  //width: 100%;
 
-    width: 100%;
-    height: 500px;
-    //background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
-    background-image: url('./images/11_Grounds2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    //margin-top: 1%;
+  width: 100%;
+  height: 500px;
+  //background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+  background-image: url('./images/11_Grounds2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  //margin-top: 1%;
 }
+
+.top-image-about {
+  //border: 2px solid red;
+  //Beige
+  background-color:rgba(245,245,220,1);
+  clear:both;
+  overflow:auto;
+
+  width: 100%;
+  height: 500px;
+  //background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+  background-image: url('./images/1221706854.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  //margin-top: 1%;
+}
+
+.top-image-homes {
+  //border: 2px solid red;
+  //Beige
+  background-color:rgba(245,245,220,1);
+  clear:both;
+  overflow:auto;
+
+  width: 100%;
+  height: 500px;
+  //background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+  background-image: url('./images/12_Home_Exterior.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  //margin-top: 1%;
+}
+
+.top-image-amenities {
+  //border: 2px solid red;
+  //Beige
+  background-color:rgba(245,245,220,1);
+  clear:both;
+  overflow:auto;
+
+  width: 100%;
+  height: 500px;
+  //background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+  background-image: url('./images/amenities.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  //margin-top: 1%;
+}
+
 
 .top-image {
   //border: 4px solid red;
-  //text-align: center;
-  //margin-top: 1em;
+  text-align: center;
+  margin-top: 1em;
   //margin-right: 1.5em;
   //margin-bottom:2em;
   //margin: 0px 0px 20px 20px;
+  //clear:both;
+  //overflow:auto;
+
   width: 100%;
-
-
 
 }
 
@@ -297,10 +348,10 @@ nav li a:hover {
   //border: 4px solid red;
   //height: 450px;
   //max-width: 100%;
-  //text-align: center;
-  max-width: 100%;
-  width:100%;
-  //margin: 0 auto;
+  text-align: center;
+  max-width: 50%;
+  //width: 60%;
+  margin: 0 auto;
   //margin-top: .2em;
   //margin-right: 1.5em;
   //margin-bottom:.5em;
@@ -479,6 +530,7 @@ nav li a:hover {
   font-size: .8em;
   font-weight: bold;
   padding: 0px 20px 0px 20px;
+
 }
 
 .abbeyImg img {
@@ -502,19 +554,21 @@ nav li a:hover {
 }
 
 .abbeyParagraph {
-  font-size: .8em;
-  font-weight: bold;
-  padding: 0px 20px 30px 20px;
+  //font-size: .8em;
+  //font-weight: bold;
+  //padding: 0px 20px 30px 20px;
+  //line-height: 1.3em;
+  //letter-spacing: .1em;
+  //padding: 0px 20px 30px 0px;
+
+  font-size: .9em;
+  font-weight: lighter;
+  line-height: 200%;
+  letter-spacing: .05em;
+  padding-right: 6%;
+
 }
 
-.abbeyParagraph {
-  //font-size: .8em;
-  //font-size: 1.3em;
-  //font-weight: bold;
-  line-height: 1.3em;
-  letter-spacing: .1em;
-  padding: 0px 20px 30px 0px;
-}
 
 #tours {
   font-size:  1.3em;
@@ -533,9 +587,22 @@ nav li a:hover {
 }
 
 .canterburyParagraph {
-  font-size: .8em;
-  font-weight: bold;
-  padding: 0px 20px 40px 20px;
+  //font-size: .8em;
+  //font-weight: bold;
+  //padding: 0px 20px 40px 20px;
+
+    //font-size: .8em;
+    //font-weight: bold;
+    //line-height: 1.3em;
+  //  letter-spacing: .1em;
+    //padding: 0px 20px 20px 20px;
+
+
+  font-size: .9em;
+  font-weight: lighter;
+  line-height: 200%;
+  letter-spacing: .05em;
+  padding-right: 6%;
 }
 
 #canterbury-title {
@@ -545,13 +612,6 @@ nav li a:hover {
   padding-bottom: 1%;
 }
 
-.canterburyParagraph {
-  //font-size: .8em;
-  //font-weight: bold;
-  line-height: 1.3em;
-  letter-spacing: .1em;
-  padding: 0px 20px 20px 20px;
-}
 
 .canterburyImg img {
   border-radius: 8px;
