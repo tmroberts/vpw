@@ -190,6 +190,170 @@ input[type="submit"]:hover {
 #form-footer {
   color: #f5f5db; }
 
+/* Styling for 55 Retirement Places Main Landing page with 14 community rollowvers - 20161009
+   License: Team Trosclair
+*/
+.community {
+  max-width: 75%;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 15%;
+  text-align: left; }
+
+.communityBtn {
+  max-width: 70%;
+  margin-bottom: 3em; }
+
+.communityDesc {
+  color: rgba(245, 245, 220, 0.7);
+  font-size: 1.3em;
+  line-height: 1.3em;
+  letter-spacing: .1em;
+  clear: both;
+  float: left;
+  width: 90%;
+  text-align: left;
+  margin-top: 2%; }
+
+.communityDesc ul {
+  margin-bottom: 1em; }
+
+.communityDesc a {
+  color: rgba(245, 245, 220, 0.7);
+  font-size: .8em; }
+
+.communityImg {
+  border-radius: 10px;
+  float: left;
+  max-width: 70%;
+  margin-right: 1.5em;
+  margin-top: .2em;
+  margin-bottom: .5em; }
+
+.communities {
+  max-width: 75%;
+  margin: 0 auto;
+  clear: both;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 13%;
+  text-align: left; }
+
+.communities .community {
+  outline: 1ps solid red;
+  float: left;
+  width: 31.3333333%; }
+
+.communities img {
+  max-width: 100%;
+  padding-left: 80px; }
+
+.communities h2 {
+  font-size: 1.2em; }
+
+.communities p {
+  line-height: 1.2em;
+  margin: 10px 0; }
+
+.communities .community .the-list {
+  text-align: left;
+  margin-left: 30px; }
+
+.img-container {
+  float: left;
+  margin: .65%;
+  width: 31%; }
+
+.img-container img {
+  width: 100%; }
+
+.box {
+  border-radius: 10px;
+  float: left;
+  height: 200px;
+  position: relative; }
+
+.box-1 {
+  border-radius: 10px;
+  margin: 2% 1% 1.0% 2%;
+  width: 22.5%; }
+
+.box-2 {
+  margin: 2% 1% 1.5% 1%;
+  width: 22.5%; }
+
+.box-3 {
+  margin: 2% 1% 1.5% 1%;
+  width: 22.5%; }
+
+.box-4 {
+  margin: 2% 1% 1.5% 1%;
+  width: 22.5%; }
+
+.overlay {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: beige;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 0; }
+
+.box:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.overlay .content {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transition: 0.2s; }
+
+.box:hover .content {
+  bottom: 15px; }
+
+.overlay .view-community {
+  border: solid 1px #FFF;
+  border-radius: 7px;
+  opacity: 0;
+  margin: 20px auto;
+  max-width: 130px;
+  padding: 10px;
+  transition: 0.2s;
+  transition-property: bottom; }
+
+.box:hover .view-community {
+  opacity: .6; }
+
+.view-community:hover {
+  background-color: #000;
+  color: #fff; }
+
+.overlay .heading {
+  font-family: "Verlag A", "Verlag B", "Helvetica", "Arial", sans-serif;
+  font-size: 1.8em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1.1em;
+  margin-top: 100px auto;
+  margin-bottom: 0.15em;
+  text-align: center;
+  text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2); }
+
+.overlay .desc {
+  font-size: 1em;
+  letter-spacing: .1em;
+  line-height: 1.2em;
+  font-weight: 100;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  text-align: center; }
+
 html, body {
   /*border: 3px solid yellow;  */
   font-family: Helvetica, Verdana, sans-serif;
@@ -735,7 +899,6 @@ footer {
   .communities {
     clear: both;
     margin: 0 auto;
-    overflow: auto;
     text-align: left;
     float: none;
     width: 70%; }
@@ -758,101 +921,16 @@ footer {
     position: relative; }
   .box-1 {
     border-radius: 10px;
-    background-color: red;
-    background-image: url(./images/robson_ranch.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 1.5% 1.5% 3%;
-    width: 45.5%; }
-  .box-5 {
-    background-color: red;
-    background-image: url(./images/villas_in_the_park.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 1.5% 1.5% 3%;
-    width: 45.5%; }
-  .box-9 {
-    background-color: red;
-    background-image: url(./images/village_at_prestonwood.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 1.5% 1.5% 3%;
-    width: 45.5%; }
-  .box-13 {
-    background-color: red;
-    background-image: url(./images/the_legends.jpg);
-    background-position: center;
-    background-size: cover;
     margin: 1.5% 1.5% 1.5% 3%;
     width: 45.5%; }
   .box-2 {
     background-color: green;
-    background-image: url(./images/frisco_lakes_clubhouse.jpg);
-    background-position: center;
-    background-size: cover;
     margin: 2% 3% 1.5% 1.5%;
     width: 45.5%; }
-  .box-6 {
-    background-color: green;
-    background-image: url(./images/ladera_mansfield.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 3% 1.5% 1.5%;
-    width: 45.5%; }
-  .box-10 {
-    background-color: green;
-    background-image: url(./images/villas_of_stone_glen.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 3% 1.5% 1.5%;
-    width: 45.5%; }
-  .box-14 {
-    background-color: green;
-    background-image: url(./images/cottages_at_lyndhurst.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 3% 1.5% 1.5%;
-    width: 45.5%; }
   .box-3 {
-    background-color: orange;
-    background-image: url(./images/heritage_ranch.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 1.5% 1.5% 3%;
-    width: 45.5%; }
-  .box-7 {
-    background-color: orange;
-    background-image: url(./images/isabella_village_savannah.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 1.5% 1.5% 3%;
-    width: 45.5%; }
-  .box-11 {
-    background-color: orange;
-    background-image: url(./images/tuscan_hills.jpg);
-    background-position: center;
-    background-size: cover;
     margin: 1.5% 1.5% 1.5% 3%;
     width: 45.5%; }
   .box-4 {
-    background-color: blue;
-    background-image: url(./images/craig_ranch.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 3% 1.5% 1.5%;
-    width: 45.5%; }
-  .box-8 {
-    background-color: blue;
-    background-image: url(./images/villas_at_willow_grove.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 1.5% 3% 1.5% 1.5%;
-    width: 45.5%; }
-  .box-12 {
-    background-color: blue;
-    background-image: url(./images/orchard_flower.jpg);
-    background-position: center;
-    background-size: cover;
     margin: 1.5% 3% 1.5% 1.5%;
     width: 45.5%; }
   .actives-container {

@@ -46,7 +46,7 @@
 	.communities {
 		clear:both;
 	  margin:0 auto;
-		overflow:auto;
+		//overflow:auto;
 		text-align:left;
 		float:none;
 		width: 70%;
@@ -74,140 +74,7 @@
   	width: 100%;
   }
 
-  .box {
-    border-radius: 10px;
-  	float: left;
-  	height: 200px;
-  	position: relative;
-  }
-
-  .box-1 {
-    border-radius: 10px;
-  	background-color: red;
-  	background-image: url(./images/robson_ranch.jpg);
-  	background-position: center;
-  	background-size: cover;
-  	margin: 1.5% 1.5% 1.5% 3%;
-  	width: 45.5%;
-  }
-
-  .box-5 {
-  	background-color: red;
-  	background-image: url(./images/villas_in_the_park.jpg);
-  	background-position: center;
-  	background-size: cover;
-  	margin: 1.5% 1.5% 1.5% 3%;
-  	width: 45.5%;
-  }
-
-  .box-9 {
-  	background-color: red;
-  	background-image: url(./images/village_at_prestonwood.jpg);
-  	background-position: center;
-  	background-size: cover;
-  	margin: 1.5% 1.5% 1.5% 3%;
-  	width: 45.5%;
-  }
-
-  .box-13 {
-  	background-color: red;
-  	background-image: url(./images/the_legends.jpg);
-  	background-position: center;
-  	background-size: cover;
-  	margin: 1.5% 1.5% 1.5% 3%;
-  	width: 45.5%;
-  }
-
-  .box-2 {
-  	background-color: green;
-  	background-image: url(./images/frisco_lakes_clubhouse.jpg);
-  	background-position: center;
-  	background-size:cover;
-  	margin: 2% 3% 1.5% 1.5%;
-  	width: 45.5%;
-  }
-
-  .box-6 {
-  	background-color: green;
-  	background-image: url(./images/ladera_mansfield.jpg);
-  	background-position: center;
-  	background-size:cover;
-  	margin: 1.5% 3% 1.5% 1.5%;
-  	width: 45.5%;
-  }
-
-  .box-10 {
-  	background-color: green;
-  	background-image: url(./images/villas_of_stone_glen.jpg);
-  	background-position: center;
-  	background-size:cover;
-  	margin: 1.5% 3% 1.5% 1.5%;
-  	width: 45.5%;
-  }
-
-  .box-14 {
-  	background-color: green;
-  	background-image: url(./images/cottages_at_lyndhurst.jpg);
-  	background-position: center;
-  	background-size:cover;
-  	margin: 1.5% 3% 1.5% 1.5%;
-  	width: 45.5%;
-  }
-
-  .box-3 {
-  	background-color: orange;
-  	background-image: url(./images/heritage_ranch.jpg);
-  	background-position: center;
-  	background-size:cover;
-  	margin: 1.5% 1.5% 1.5% 3%;
-  	width: 45.5%;
-  }
-
-  .box-7 {
-  	background-color: orange;
-  	background-image: url(./images/isabella_village_savannah.jpg);
-  	background-position: center;
-  	background-size:cover;
-  	margin: 1.5% 1.5% 1.5% 3%;
-  	width: 45.5%;
-  }
-
-  .box-11 {
-  	background-color: orange;
-  	background-image: url(./images/tuscan_hills.jpg);
-  	background-position: center;
-  	background-size:cover;
-  	margin: 1.5% 1.5% 1.5% 3%;
-  	width: 45.5%;
-  }
-
-  .box-4 {
-  	background-color: blue;
-  	background-image: url(./images/craig_ranch.jpg);
-  	background-position: center;
-  	background-size: cover;
-  	margin: 1.5% 3% 1.5% 1.5%;
-  	width: 45.5%;
-  }
-
-  .box-8 {
-  	background-color: blue;
-  	background-image: url(./images/villas_at_willow_grove.jpg);
-  	background-position: center;
-  	background-size: cover;
-  	margin: 1.5% 3% 1.5% 1.5%;
-  	width: 45.5%;
-  }
-
-  .box-12 {
-  	background-color: blue;
-  	background-image: url(./images/orchard_flower.jpg);
-  	background-position: center;
-  	background-size: cover;
-  	margin: 1.5% 3% 1.5% 1.5%;
-  	width: 45.5%;
-  }
-
+  
 //listing pages
 
 	.actives-container {
