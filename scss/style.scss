@@ -101,6 +101,14 @@ nav li a:hover {
   text-decoration: none;
 }
 
+.square {
+  list-style: square;
+  line-height: 200%;
+  letter-spacing: .1em;
+  margin-left: 2%;
+}
+
+
 /* Section 1 - Landing */
 
 .sect {
@@ -623,7 +631,7 @@ nav li a:hover {
 
 .dynamicText h3 {
   font-size:  1em;
-  //font-weight: bold;
+  font-weight: bold;
   font-weight: normal;
   letter-spacing: .05em;
   line-height: 200%;
@@ -749,6 +757,13 @@ nav li a:hover {
 #canterbury-tour {
   padding-top: 4%;
 }
+
+.homes-canterbury {
+  margin-top: 7%;
+}
+
+
+
 
 .galleryImg2 img {
   border-radius: 8px;
