@@ -228,7 +228,11 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding: 10px; }
+  padding: 10px;
+  border-right: 1px solid; }
+
+nav ul li:last-child {
+  border-right: none; }
 
 nav li a {
   color: rgba(0, 0, 0, 0.75);
@@ -571,6 +575,13 @@ nav li a:hover {
   letter-spacing: .05em;
   line-height: 200%;
   margin: 20px 20px 20px 0px; }
+
+.dynamicText h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+  letter-spacing: .05em;
+  line-height: 200%;
+  margin: 20px 20px 10px 0px; }
 
 .dynamicText h3 {
   font-size: 1em;
