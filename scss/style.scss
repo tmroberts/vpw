@@ -334,11 +334,27 @@ nav li a:hover {
   //margin-top: 1%;
 }
 
+.top-image-neighborhood {
+  //border: 2px solid red;
+  //Beige
+  background-color:rgba(245,245,220,1);
+  clear:both;
+  overflow:auto;
+  width: 100%;
+  height: 500px;
+  //background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+  background-image: url('./images/neighborhood.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  //margin-top: 1%;
+}
+
 
 .top-image {
   //border: 4px solid red;
   text-align: center;
-  margin-top: 6em;
+  margin-top: 2em;
   //margin-right: 1.5em;
   //margin-bottom:2em;
   //margin: 0px 0px 20px 20px;
@@ -429,7 +445,7 @@ nav li a:hover {
   letter-spacing: .05em;
   line-height: 200%;
   //margin: 20px 20px 20px 25px;
-  margin-top: 7%;
+  margin-top: 2%;
   text-align: center;
 }
 

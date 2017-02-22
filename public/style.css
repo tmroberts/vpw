@@ -425,9 +425,20 @@ nav li a:hover {
   background-repeat: no-repeat;
   background-position: 50% 60%; }
 
+.top-image-neighborhood {
+  background-color: beige;
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  height: 500px;
+  background-image: url("./images/neighborhood.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
 .top-image {
   text-align: center;
-  margin-top: 6em;
+  margin-top: 2em;
   width: 100%; }
 
 .top-image img {
@@ -469,7 +480,7 @@ nav li a:hover {
   font-weight: normal;
   letter-spacing: .05em;
   line-height: 200%;
-  margin-top: 7%;
+  margin-top: 2%;
   text-align: center; }
 
 .thumbnail {
