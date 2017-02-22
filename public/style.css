@@ -464,15 +464,30 @@ nav li a:hover {
 .thumbnail-container {
   width: 100%; }
 
+.thumbnail-container h1 {
+  font-size: 1.7em;
+  font-weight: normal;
+  letter-spacing: .05em;
+  line-height: 200%;
+  margin-top: 7%;
+  text-align: center; }
+
 .thumbnail {
-  background-color: #333333;
+  background-color: #444444;
   border-radius: 8px;
   clear: both;
   display: inline-block;
-  margin: 2% 1% 1% 2%;
+  margin: 0% 1% 1% 2%;
+  padding-top: 1%;
   text-align: center;
   overflow: auto;
   width: 21%; }
+
+.fade {
+  opacity: 1; }
+
+.fade:hover {
+  opacity: 0.8; }
 
 .virtual-tour-button {
   border-radius: 8px;
@@ -485,13 +500,13 @@ nav li a:hover {
   text-decoration: none;
   text-align: center;
   letter-spacing: .1em;
-  background-color: #688d34;
+  background: transparent;
   border: 2px solid #f5f5dc;
   color: #f5f5dc;
   text-shadow: 3px 3px 3px black; }
 
 .virtual-tour-button:hover {
-  background: transparent;
+  background-color: #688d34;
   border: 2px solid #f5f5dc;
   border-radius: 8px;
   color: #f5f5f5;
