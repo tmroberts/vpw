@@ -420,7 +420,7 @@ nav li a:hover {
   overflow: auto;
   width: 100%;
   height: 500px;
-  background-image: url("./images/amenities.png");
+  background-image: url("./images/06_CommunityCenter_Pool3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 60%; }
@@ -527,7 +527,6 @@ nav li a:hover {
 .container-section2 {
   max-width: 85%;
   margin: 0 auto;
-  overflow: auto;
   clear: both;
   margin-bottom: 40px;
   text-align: left; }
@@ -615,6 +614,12 @@ nav li a:hover {
   line-height: 200%;
   letter-spacing: .05em;
   padding-right: 6%; }
+
+.amenitiesParagraph {
+  margin-top: 8%; }
+
+.premier-clubParagraph {
+  margin-top: 10%; }
 
 #tours {
   font-size: 1.3em;
