@@ -494,7 +494,6 @@ nav li a:hover {
   text-align: center; }
 
 .thumbnail {
-  background-color: #444444;
   border-radius: 8px;
   clear: both;
   display: inline-block;
@@ -515,24 +514,59 @@ nav li a:hover {
   display: block;
   font-size: 1.347em;
   font-weight: 700;
+  max-width: 250px;
   width: 10em;
   margin: 2em auto;
-  padding: 1em 0.5em;
+  padding: .5em 0.5em;
   text-decoration: none;
   text-align: center;
   letter-spacing: .1em;
-  background: transparent;
-  border: 2px solid #f5f5dc;
+  background-color: #999999;
+  background-color: #688d34;
+  border: solid 2px #000;
   color: #f5f5dc;
-  text-shadow: 3px 3px 3px black; }
+  text-shadow: 3px 3px 3px black;
+  opacity: .6;
+  transition: 0.2s;
+  transition-property: bottom; }
 
 .virtual-tour-button:hover {
   background-color: #688d34;
-  border: 2px solid #f5f5dc;
   border-radius: 8px;
+  border: solid 2px #000;
   color: #f5f5f5;
   text-decoration: none;
-  text-shadow: 3px 3px 3px black; }
+  text-shadow: 3px 3px 3px black;
+  opacity: 1; }
+
+.virtual-tour-button-gallery {
+  border-radius: 8px;
+  font-size: 1.347em;
+  font-weight: 700;
+  max-width: 250px;
+  width: 10em;
+  margin: 2em auto;
+  padding: .5em 0.5em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: #999999;
+  background-color: #688d34;
+  border: solid 2px #000;
+  color: #f5f5dc;
+  text-shadow: 3px 3px 3px black;
+  opacity: .8;
+  transition: 0.2s;
+  transition-property: bottom; }
+
+.virtual-tour-button-gallery:hover {
+  background-color: #688d34;
+  border-radius: 8px;
+  border: solid 2px #000;
+  color: #f5f5f5;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px black;
+  opacity: 1; }
 
 .container-section2 {
   max-width: 85%;
@@ -610,13 +644,20 @@ nav li a:hover {
   font-weight: bold;
   padding: 0px 20px 0px 20px; }
 
+.abbey-thumbnail {
+  border-radius: 8px;
+  clear: both;
+  display: inline-block;
+  margin: 0% 0% 1% 2%;
+  padding-top: 1%;
+  text-align: center;
+  overflow: auto; }
+
 .abbeyImg img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
-  float: right;
   margin-right: 6%;
-  margin-left: 3%;
-  width: 15%; }
+  margin-left: 3%; }
 
 .galleryImg img {
   border-radius: 8px;
@@ -657,12 +698,14 @@ nav li a:hover {
   font-weight: lighter;
   line-height: 200%;
   letter-spacing: .05em;
-  padding-right: 6%; }
+  padding-right: 6%;
+  margin-bottom: 2%; }
 
 #canterbury-title {
+  clear: both;
   font-size: 1.1em;
   font-weight: bold;
-  margin-top: 10%;
+  margin-top: 20%;
   padding-bottom: 1%; }
 
 .canterburyImg img {
