@@ -211,7 +211,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.5);
   /*display: none;*/
   /*box-sizing: border-box;*/
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 500;
   position: fixed;
   top: 0;
@@ -221,46 +221,84 @@ nav {
   z-index: 100;
   width: 100%; }
 
-nav ul {
+nav ul.topnav {
+  text-align: right;
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+/*nav ul {
   text-align: right;
   float: left;
-  width: 70%; }
-
-nav ul li {
+  //width: 75%;
+  width: 83%;
+}*/
+nav ul.topnav li {
+  float: right;
   display: inline-block;
   padding: 10px;
   border-right: 1px solid; }
 
-nav ul li:last-child {
+/*nav ul li {
+  display: inline-block;
+  padding: 10px;
+  //margin-right: 0px;
+  border-right: 1px solid;
+  //padding: 0 20px;
+
+}*/
+nav ul li:first-child {
   border-right: none; }
 
-nav li a {
+nav ul.topnav li a {
   color: rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
   text-decoration: none; }
 
-nav li a:hover {
+/*nav li a {
+  color: rgba(0, 0, 0, 0.75);
+  //color:rgba(245,245,220,1);
+  text-decoration: none;
+}*/
+nav ul.topnav li a:hover {
+  background-color: #999;
   color: whitesmoke;
   border-bottom: 2px solid beige;
   border-top: 2px solid beige;
-  padding: 10px 0px;
+  box-sizing: border-box;
   text-shadow: 0px 0px 0px black; }
+
+/*nav li a:hover {
+  //color:rgba(245,245,220,1);
+  color: rgba(245,245,245,1);
+  border-bottom: 2px solid beige;
+  border-top: 2px solid beige;
+  padding: 10px 0px;
+  text-shadow: 0px 0px 0px black;
+}*/
+nav ul.topnav li.icon {
+  display: none; }
 
 .left {
   float: left;
-  width: 25%;
+  width: 15%;
   padding-left: 25px;
   box-sizing: border-box;
   z-index: 500; }
 
 .logo {
-  float: left;
-  width: 25%;
+  width: 30%;
+  min-width: 30%;
   padding-left: 25px;
-  box-sizing: border-box;
   z-index: 500; }
 
 .logo img {
-  width: 100%; }
+  width: 100%;
+  max-width: 100%; }
 
 .logo img a {
   text-decoration: none; }
@@ -844,26 +882,24 @@ footer {
 /* Media queries for 55 Retirement Places - 20161009
    License: Team Trosclair
 */
-@media screen and (max-width: 1140px) {
-  .overlay .heading {
-    font-size: 1.6em; } }
-
 @media screen and (max-width: 1030px) {
-  .overlay .heading {
-    font-size: 1.4em; }
   .scrollingBox {
     width: 340px; } }
 
 @media screen and (max-width: 950px) {
-  .logo {
-    float: none;
-    width: auto; }
-  .logo h1 {
-    padding-left: 0px; }
+  /*.logo {
+		width: 30%;
+    min-width:30%;
+	}*/
+  /*.logo h1 {
+	  padding-left:0px;
+	}*/
   nav ul {
     text-align: left;
     float: none;
     width: auto; }
+  nav ul.topnav {
+    font-size: .8em; }
   .communities {
     clear: both;
     margin: 0 auto;
@@ -970,7 +1006,47 @@ footer {
   .listings-button {
     margin-top: 15px; } }
 
+@media screen and (max-width: 845px) {
+  nav ul.topnav {
+    font-size: .6em; }
+  .logo {
+    padding-left: 0px; } }
+
+@media screen and (max-width: 715px) {
+  .left {
+    width: 10%; }
+  #brand-name {
+    font-size: 30px; } }
+
+@media screen and (max-width: 680px) {
+  nav ul.topnav li:not(:first-child) {
+    display: none; }
+  nav ul.topnav li.icon {
+    float: right;
+    display: inline-block; }
+  .logo {
+    padding-left: 25px;
+    width: 25%; }
+  .left {
+    width: 25%; } }
+
+@media screen and (max-width: 680px) {
+  nav ul.topnav.responsive {
+    position: relative; }
+  nav ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  nav ul.topnav.responsive li {
+    float: none;
+    display: inline; }
+  nav ul.topnav.responsive li a {
+    display: block;
+    text-align: left; } }
+
 @media screen and (max-width: 490px) {
+  #brand-name {
+    font-size: 20px; }
   .overlay .heading {
     font-size: 1.2em; }
   input::-webkit-input-placeholder {
@@ -986,8 +1062,7 @@ footer {
 
 @media screen and (max-width: 420px) {
   .logo {
-    float: none;
-    width: auto; }
+    float: none; }
   nav {
     position: relative; }
   nav ul {

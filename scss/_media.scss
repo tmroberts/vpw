@@ -5,14 +5,14 @@
 // Landing page box text at 1140px
 @media screen and (max-width: 1140px) {
 	.overlay .heading {
-		font-size: 1.6em;
+		//font-size: 1.6em;
 	}
 }
 
 // Landing page box text at 1030px
 @media screen and (max-width: 1030px) {
 	.overlay .heading {
-		font-size: 1.4em;
+		//font-size: 1.4em;
 	}
 
 	.scrollingBox {
@@ -20,27 +20,27 @@
 	}
 }
 
-// Go to 2-col setup at 950px
+// Go to 2-col setup on the main landing pg at 950px
 @media screen and (max-width: 950px) {
 
-	.logo {
-	  float:none;
-	  width: auto;
-	}
 
-	.logo h1 {
+	/*.logo {
+		width: 30%;
+    min-width:30%;
+	}*/
+
+	/*.logo h1 {
 	  padding-left:0px;
-	}
+	}*/
+
 	nav ul {
 	  text-align:left;
 	  float:none;
 	  width: auto;
 	}
 
-	nav ul li {
-	  //outline: 1px solid green;
-	  //display: inline-block;
-	  //padding: 7px;
+	nav ul.topnav {
+		font-size: .8em;
 	}
 
 	.communities {
@@ -74,7 +74,7 @@
   	width: 100%;
   }
 
-  
+
 //listing pages
 
 	.actives-container {
@@ -213,9 +213,75 @@
 
 }
 
+@media screen and (max-width: 845px) {
+
+	nav ul.topnav {
+		font-size: .6em;
+	}
+
+	.logo {
+			padding-left: 0px;
+	}
+
+}
+
+@media screen and (max-width:715px) {
+	.left {
+		width: 10%;
+	}
+
+	#brand-name {
+	  font-size: 30px;
+	}
+
+
+}
+
+
+@media screen and (max-width:680px) {
+  nav ul.topnav li:not(:first-child) {display: none;}
+  nav ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+	.logo {
+			padding-left: 25px;
+			width:25%;
+	}
+
+	.left {
+		width: 25%;
+	}
+
+}
+
+
+
+@media screen and (max-width:680px) {
+  nav ul.topnav.responsive {position: relative;}
+  nav ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  nav ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
 
 
 @media screen and (max-width: 490px) {
+
+	#brand-name {
+	  font-size: 20px;
+	}
+
 	.overlay .heading {
 		font-size: 1.2em;
 	}
@@ -247,7 +313,7 @@
 @media screen and (max-width: 420px) {
 	.logo {
 		float:none;
-		width: auto;
+		//width: auto;
 	}
 
 	nav {

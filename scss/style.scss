@@ -31,7 +31,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.5);
   /*display: none;*/
   /*box-sizing: border-box;*/
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 500;
   position: fixed;
   top: 0;
@@ -40,66 +40,124 @@ nav {
   padding-bottom: 12px;
   z-index: 100;
   width: 100%;
-
 }
 
-nav ul {
+nav ul.topnav {
+  text-align: right;
+  float: right;
+  //width: 75%;
+  //width: 83%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  //background-color: #333;
+}
+
+/*nav ul {
   text-align: right;
   float: left;
-  width: 70%;
+  //width: 75%;
+  width: 83%;
+}*/
+
+nav ul.topnav li {
+  float: right;
+  display: inline-block;
+  padding: 10px;
+  //margin-right: 0px;
+  border-right: 1px solid;
+  //padding: 0 20px;
 }
 
-nav ul li {
+/*nav ul li {
   display: inline-block;
   padding: 10px;
   //margin-right: 0px;
   border-right: 1px solid;
   //padding: 0 20px;
 
-}
+}*/
 
-nav ul li:last-child {
+nav ul li:first-child {
   border-right: none;
 }
 
-nav li a {
+
+nav ul.topnav li a {
   color: rgba(0, 0, 0, 0.75);
   //color:rgba(245,245,220,1);
   text-decoration: none;
+  display: inline-block;
+  //color: #f2f2f2;
+  text-align: center;
+  //padding: 14px 16px;
+  //padding: 10px 0px;
+  text-decoration: none;
+  //transition: 0.3s;
+  //font-size: 17px;
 }
 
-nav li a:hover {
+/*nav li a {
+  color: rgba(0, 0, 0, 0.75);
+  //color:rgba(245,245,220,1);
+  text-decoration: none;
+}*/
+
+nav ul.topnav li a:hover {
+  background-color: #999;
+  //color:rgba(245,245,220,1);
+  color: rgba(245,245,245,1);
+  border-bottom: 2px solid beige;
+  border-top: 2px solid beige;
+  box-sizing: border-box;
+  //padding: 10px 0px;
+  text-shadow: 0px 0px 0px black;
+
+}
+/*nav li a:hover {
   //color:rgba(245,245,220,1);
   color: rgba(245,245,245,1);
   border-bottom: 2px solid beige;
   border-top: 2px solid beige;
   padding: 10px 0px;
   text-shadow: 0px 0px 0px black;
-}
+}*/
+
+nav ul.topnav li.icon {display: none;}
+
 
 .left {
   float: left;
-  width: 25%;
+  //width: 25%;
+  width: 15%;
   padding-left: 25px;
   box-sizing: border-box;
   z-index: 500;
 }
 
 .logo {
-  float: left;
-  width: 25%;
+
+	  //float:none;
+	  width: 30%;
+    min-width:30%;
+  //float: left;
+  //width: 25%;
   padding-left: 25px;
-  box-sizing: border-box;
+  //box-sizing: border-box;
   z-index: 500;
 }
 
 .logo img {
   width: 100%;
+  max-width: 100%;
+
 }
 
 .logo img a {
   text-decoration: none;
 }
+
 
 .square {
   list-style: square;
