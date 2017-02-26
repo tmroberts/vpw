@@ -158,14 +158,12 @@ nav ul.topnav li.icon {display: none;}
   text-decoration: none;
 }
 
-
 .square {
   list-style: square;
   line-height: 200%;
   letter-spacing: .1em;
   margin-left: 2%;
 }
-
 
 /* Section 1 - Landing */
 
@@ -180,19 +178,27 @@ nav ul.topnav li.icon {display: none;}
 .sectOne {
   background-image: url(images/image2.jpg);
   background-color: #D9C7B6;
-  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   clear:both;
 }
 
 .sectTwo {
   background-image: url(images/image1.jpg);
   background-color: #D9C7B6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   clear:both;
 }
 
 .sectThree {
   background-image: url(images/image3.jpg);
   background-color: #D9C7B6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   clear:both;
 }
 
