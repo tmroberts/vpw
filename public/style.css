@@ -1020,6 +1020,9 @@ footer {
   .logo {
     padding-left: 0px; } }
 
+nav ul.topnav li {
+  border-right: none; }
+
 @media screen and (max-width: 715px) {
   .left {
     width: 10%; }
