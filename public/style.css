@@ -1045,6 +1045,12 @@ footer {
     text-align: left; } }
 
 @media screen and (max-width: 490px) {
+  .dynamicImg img {
+    display: none; }
+  .dynamicImg2 img {
+    margin-right: 8%; }
+  .vpw-heading {
+    font-size: 1.3em; }
   #brand-name {
     font-size: 20px; }
   .overlay .heading {

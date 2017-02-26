@@ -278,6 +278,23 @@
 
 @media screen and (max-width: 490px) {
 
+
+	.dynamicImg img {
+		display:none;
+		//float:left;
+		//margin-left: 25%;
+	}
+
+	.dynamicImg2 img {
+		margin-right: 8%;
+	}
+
+	.vpw-heading {
+		font-size: 1.3em;
+	}
+
+
+
 	#brand-name {
 	  font-size: 20px;
 	}
