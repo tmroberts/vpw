@@ -231,11 +231,6 @@
 
 
 
-
-
-
-
-
 @media screen and (max-width:715px) {
 	.left {
 		width: 10%;
@@ -251,6 +246,7 @@
 
 @media screen and (max-width:680px) {
   nav ul.topnav li:not(:first-child) {display: none;}
+
   nav ul.topnav li.icon {
     float: right;
     display: inline-block;
@@ -265,9 +261,24 @@
 		width: 25%;
 	}
 
+	nav ul.topnav li a:hover {
+	  background-color: #333;
+	// 	border-bottom: none;
+	// 	border-top: none;
+	// 	padding: 5px;
+
+	}
+
+	nav ul.topnav {
+		font-size: .8em;
+	}
+
+
+
+
+
+
 }
-
-
 
 @media screen and (max-width:680px) {
   nav ul.topnav.responsive {position: relative;}
@@ -289,6 +300,54 @@
 
 @media screen and (max-width: 490px) {
 
+	nav ul.topnav li a:hover {
+		//background-color: #333;
+		// border-bottom: none;
+		// border-top: none;
+		// padding: 5px;
+	}
+
+	.left {
+		display: none;
+	}
+
+// nav ul.topnav {
+// 	float: right;
+// }
+//
+// nav ul.topnav li.icon {
+// 	float: left;
+// 	margin-right:20px;
+// 	//display: inline-block;
+// }
+//
+// nav ul.topnav li.icon {
+// 	float: right;
+// 	//display: inline-block;
+// }
+//
+// nav ul.topnav.responsive {
+// 	//position: relative;
+// 	//float: left;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0
+// }
+// nav ul.topnav.responsive li.icon {
+// 	position: absolute;
+// 	left: 0;
+// 	top: 0;
+//
+// }
+
+// nav ul.topnav.responsive li {
+// 	float: none;
+// 	display: inline;
+// }
+// nav ul.topnav.responsive li a {
+// 	display: block;
+// 	text-align: left;
+// }
 
 	.dynamicImg img {
 		display:none;
@@ -303,8 +362,6 @@
 	.vpw-heading {
 		font-size: 1.3em;
 	}
-
-
 
 	#brand-name {
 	  font-size: 20px;
