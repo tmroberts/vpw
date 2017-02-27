@@ -209,8 +209,6 @@ strong {
 nav {
   background-color: rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
-  /*display: none;*/
-  /*box-sizing: border-box;*/
   font-size: 1em;
   font-weight: 500;
   position: fixed;
@@ -229,26 +227,12 @@ nav ul.topnav {
   padding: 0;
   overflow: hidden; }
 
-/*nav ul {
-  text-align: right;
-  float: left;
-  //width: 75%;
-  width: 83%;
-}*/
 nav ul.topnav li {
   float: right;
   display: inline-block;
   padding: 10px;
   border-right: 1px solid; }
 
-/*nav ul li {
-  display: inline-block;
-  padding: 10px;
-  //margin-right: 0px;
-  border-right: 1px solid;
-  //padding: 0 20px;
-
-}*/
 nav ul li:first-child {
   border-right: none; }
 
@@ -262,25 +246,14 @@ nav ul.topnav li a {
   padding-top: 6px;
   padding-bottom: 6px; }
 
-/*nav li a {
-  color: rgba(0, 0, 0, 0.75);
-  //color:rgba(245,245,220,1);
-  text-decoration: none;
-}*/
 nav ul.topnav li a:hover {
   box-sizing: border-box;
   background-color: #999;
   color: beige;
-  text-shadow: 0px 0px 0px black; }
-
-/*nav li a:hover {
-  //color:rgba(245,245,220,1);
-  color: rgba(245,245,245,1);
   border-bottom: 2px solid beige;
   border-top: 2px solid beige;
-  padding: 10px 0px;
-  text-shadow: 0px 0px 0px black;
-}*/
+  text-shadow: 0px 0px 0px black; }
+
 nav ul.topnav li.icon {
   display: none; }
 
@@ -369,13 +342,7 @@ nav ul.topnav li.icon {
   font-size: 1.5em; }
 
 .subSection {
-  height: 100%;
-  /*background-color: rgba(0, 0, 0, 0.5) !important;
-  background-image: url(../images/image2.jpg);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;*/
-  /*background-color: rgba(255, 255, 255, 1) !important;*/ }
+  height: 100%; }
 
 .content {
   position: relative;
@@ -392,12 +359,9 @@ nav ul.topnav li.icon {
   font-size: 1.3em;
   line-height: 1.3em;
   letter-spacing: .1em;
-  /*margin: 10px 10px;*/
   margin: 0 auto;
   clear: both;
-  /*float: left;*/
   text-align: left;
-  /*margin-top: 06%;*/
   padding-top: 8%;
   padding-bottom: 20%;
   background-size: cover;
@@ -803,7 +767,6 @@ nav ul.topnav li.icon {
   font-size: 1.7em;
   font-weight: 300;
   line-height: 1.8em;
-  /*padding: 30px;*/
   text-align: center;
   letter-spacing: 2px;
   margin: 0 auto;
