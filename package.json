@@ -16,6 +16,7 @@
   "dependencies": {
     "body-parser": "^1.17.0",
     "btoa": "^1.1.2",
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "sendgrid": "^4.7.1"
   }
 }
