@@ -25,8 +25,8 @@ app.post('/sendemail', function (req, res) {
   var email=req.body.email;
   var phone=req.body.phone;
   var info=req.body.info;
-  //console.log("Name = ", name);
-  //console.log("Email is "+email+"");
+  console.log("Name = ", name);
+  console.log("Email is "+email+"");
   var html = 'Name: ' + name + '\r\n \r\n' +
   'Email: ' + email + '\r\n \r\n' +
   'Phone Number: ' + phone + '\r\n \r\n' +
@@ -40,10 +40,10 @@ app.post('/sendemail', function (req, res) {
 
   from_email = new helper.Email("villageatprestonwood@example.com");
   //to_email = new helper.Email("tmroberts7@gmail.com");
-  to_email = new helper.Email("trkr6@verizon.net")
+  to_email = new helper.Email("trkr6@verizon.net");
   subject = "Testing VPW email with SendGrid";
   content = new helper.Content("text/plain", html);
-  mail = new helper.Mail(from_email, subject, to_email, content)
+  mail = new helper.Mail(from_email, subject, to_email, content);
 
   var sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
 
