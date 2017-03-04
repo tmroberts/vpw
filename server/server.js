@@ -36,7 +36,7 @@ app.post('/sendemail', function (req, res) {
   // using SendGrid's v3 Node.js Library
   //https://github.com/sendgrid/sendgrid-nodejs
 
-  var helper = require('sendgrid').mail
+  var helper = require('sendgrid').mail;
 
   from_email = new helper.Email("villageatprestonwood@example.com");
   //to_email = new helper.Email("tmroberts7@gmail.com");
