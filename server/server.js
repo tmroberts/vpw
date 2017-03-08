@@ -39,7 +39,8 @@ app.post('/sendemail', function (req, res) {
   var helper = require('sendgrid').mail;
 
   from_email = new helper.Email("villageatprestonwood@example.com");
-  to_email = new helper.Email("tmroberts7@gmail.com");
+  //to_email = new helper.Email("tmroberts7@gmail.com");
+  to_email = new helper.Email("kmroberts7@gmail.com");
   //to_email = new helper.Email("trkr6@verizon.net");
   subject = "Testing VPW email with SendGrid";
   content = new helper.Content("text/plain", html);
