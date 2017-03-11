@@ -35,12 +35,12 @@ app.post('/sendemail', function (req, res) {
 
   // using SendGrid's v3 Node.js Library
   //https://github.com/sendgrid/sendgrid-nodejs
-
   var helper = require('sendgrid').mail;
 
   from_email = new helper.Email("villageatprestonwood@example.com");
   //to_email = new helper.Email("tmroberts7@gmail.com");
   to_email = new helper.Email("kmroberts7@gmail.com");
+  //kmroberts@gmail.com gets forwarded to hometexas as well so Kathy will get both emails
   //to_email = new helper.Email("trkr6@verizon.net");
   subject = "Testing VPW email with SendGrid";
   content = new helper.Content("text/plain", html);
@@ -63,7 +63,6 @@ app.post('/sendemail', function (req, res) {
 
 // npm run-script node server/server.js
 // sh launch.sh
-
 
 // If PROD/heroku use process.env.PORT
 // If localhost use the hard-coded port 5555 ... hence the 'OR'
