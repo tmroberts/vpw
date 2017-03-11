@@ -550,6 +550,36 @@ nav ul.topnav li.icon {
   text-shadow: 3px 3px 3px black;
   opacity: 1; }
 
+.no-virtual-tour-button {
+  border-radius: 8px;
+  display: block;
+  font-size: 1.347em;
+  font-weight: 700;
+  max-width: 250px;
+  width: 10em;
+  margin: 2em auto;
+  padding: .5em 0.5em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: #999999;
+  background-color: #688d34;
+  border: solid 2px #000;
+  color: #f5f5dc;
+  text-shadow: 3px 3px 3px black;
+  opacity: .6;
+  transition: 0.2s;
+  transition-property: bottom; }
+
+.no-virtual-tour-button:hover {
+  background-color: #688d34;
+  border-radius: 8px;
+  border: solid 2px #000;
+  color: #f5f5f5;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px black;
+  opacity: 1; }
+
 .virtual-tour-button-gallery {
   border-radius: 8px;
   font-size: 1.347em;
@@ -854,6 +884,17 @@ footer {
 /* Media queries for 55 Retirement Places - 20161009
    License: Team Trosclair
 */
+@media screen and (max-width: 1140px) {
+  .thumbnail {
+    border-radius: 8px;
+    clear: both;
+    display: inline-block;
+    margin: 0% 1% 1% 2%;
+    padding-top: 1%;
+    text-align: center;
+    overflow: auto;
+    width: 40%; } }
+
 @media screen and (max-width: 1030px) {
   .scrollingBox {
     width: 340px; } }
@@ -1007,7 +1048,16 @@ nav ul.topnav li {
   nav ul.topnav li a:hover {
     background-color: #333; }
   nav ul.topnav {
-    font-size: .8em; } }
+    font-size: .8em; }
+  .thumbnail {
+    border-radius: 8px;
+    clear: both;
+    display: inline-block;
+    margin: 0% 1% 1% 2%;
+    padding-top: 1%;
+    text-align: center;
+    overflow: auto;
+    width: 80%; } }
 
 @media screen and (max-width: 680px) {
   nav ul.topnav.responsive {

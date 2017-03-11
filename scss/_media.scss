@@ -7,6 +7,22 @@
 	.overlay .heading {
 		//font-size: 1.6em;
 	}
+	.thumbnail {
+		//background-color: #444444;
+		//border: solid 2px #000;
+		border-radius: 8px;
+		//border: 2px solid red;
+		clear: both;
+		display:inline-block;
+		//float: left;
+		margin: 0% 1% 1% 2%;
+		padding-top: 1%;
+		text-align: center;
+		overflow: auto;
+		width: 40%;
+
+	}
+
 }
 
 // Landing page box text at 1030px
@@ -273,6 +289,21 @@
 		font-size: .8em;
 	}
 
+	.thumbnail {
+		//background-color: #444444;
+		//border: solid 2px #000;
+		border-radius: 8px;
+		//border: 2px solid red;
+		clear: both;
+		display:inline-block;
+		//float: left;
+		margin: 0% 1% 1% 2%;
+		padding-top: 1%;
+		text-align: center;
+		overflow: auto;
+		width: 80%;
+
+	}
 
 
 
