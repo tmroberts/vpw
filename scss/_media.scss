@@ -305,10 +305,6 @@
 
 	}
 
-
-
-
-
 }
 
 @media screen and (max-width:680px) {
@@ -421,6 +417,29 @@
 	textarea::-moz-placeholder {
 			font-size: .8em;
 	}
+
+	.virtual-tour-button-gallery {
+	  //border-radius: 8px;
+	  //display: block;
+	  font-size: 1em;
+	  //font-weight: 700;
+	  //max-width: 250px;
+	  //width: 10em;
+		max-width: 80%;
+		width: 70%;
+	  //margin: 2em auto;
+	  padding: .5em 0.5em;
+		margin-top: 30%;
+
+	}
+
+
+
+
+
+
+
+
 
 }
 

@@ -1095,7 +1095,13 @@ nav ul.topnav li {
   textarea::-webkit-input-placeholder {
     font-size: .8em; }
   textarea::-moz-placeholder {
-    font-size: .8em; } }
+    font-size: .8em; }
+  .virtual-tour-button-gallery {
+    font-size: 1em;
+    max-width: 80%;
+    width: 70%;
+    padding: .5em 0.5em;
+    margin-top: 30%; } }
 
 @media screen and (max-width: 420px) {
   .logo {
