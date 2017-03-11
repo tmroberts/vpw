@@ -1023,7 +1023,10 @@ footer {
   nav ul.topnav {
     font-size: .6em; }
   .logo {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+  .dynamicText h1 {
+    font-size: 1.2em;
+    font-weight: bold; } }
 
 nav ul.topnav li {
   border-right: none; }
@@ -1057,7 +1060,9 @@ nav ul.topnav li {
     padding-top: 1%;
     text-align: center;
     overflow: auto;
-    width: 80%; } }
+    width: 80%; }
+  .dynamicText h1 {
+    font-size: 1.0em; } }
 
 @media screen and (max-width: 680px) {
   nav ul.topnav.responsive {
@@ -1071,11 +1076,19 @@ nav ul.topnav li {
     display: inline; }
   nav ul.topnav.responsive li a {
     display: block;
-    text-align: left; } }
+    text-align: left; }
+  .dynamicText h1 {
+    font-size: 1em; } }
+
+@media screen and (max-width: 515px) {
+  .dynamicText h1 {
+    font-size: .9em; } }
 
 @media screen and (max-width: 490px) {
   .left {
     display: none; }
+  .dynamicText h1 {
+    font-size: .8em; }
   .dynamicImg img {
     display: none; }
   .dynamicImg2 img {
