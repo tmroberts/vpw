@@ -49,7 +49,6 @@ nav ul.topnav {
   overflow: hidden;
 }
 
-
 nav ul.topnav li {
   float: right;
   display: inline-block;
@@ -57,11 +56,9 @@ nav ul.topnav li {
   border-right: 1px solid;
 }
 
-
 nav ul li:first-child {
   border-right: none;
 }
-
 
 nav ul.topnav li a {
   box-sizing: border-box;
@@ -89,7 +86,6 @@ nav ul.topnav li a:hover {
   border-top: 2px solid beige;
   //padding: 10px 0px;
   text-shadow: 0px 0px 0px black;
-
 }
 
 nav ul.topnav li.icon {display: none;}
@@ -172,7 +168,6 @@ nav ul.topnav li.icon {display: none;}
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 #brand-name {
@@ -184,7 +179,6 @@ nav ul.topnav li.icon {display: none;}
   align-items: center;
   font-size: 50px;
   margin-top: 5%;
-
 }
 
 #brand-subtitle {
@@ -217,7 +211,6 @@ nav ul.topnav li.icon {display: none;}
 //  margin: 0 auto;
 //  width: 75%;
 //
-
 
 .communityDesc {
   height: 100%;
@@ -276,8 +269,6 @@ nav ul.topnav li.icon {display: none;}
 .communityText h1 {
   margin-bottom: 20px;
 }
-
-
 
 /* =================================== */
 /* Section 2 - Dynamic content section */
@@ -373,7 +364,6 @@ nav ul.topnav li.icon {display: none;}
   text-align: center;
   margin-top: 2em;
   width: 100%;
-
 }
 
 .top-image img {
@@ -425,7 +415,6 @@ nav ul.topnav li.icon {display: none;}
   width: 100%;
 }
 
-
 .thumbnail-container h1 {
   font-size:  1.7em;
   font-weight: normal;
@@ -437,19 +426,15 @@ nav ul.topnav li.icon {display: none;}
 }
 
 .thumbnail {
-  //background-color: #444444;
-  //border: solid 2px #000;
   border-radius: 8px;
   //border: 2px solid red;
   clear: both;
   display:inline-block;
-  //float: left;
   margin: 0% 1% 1% 2%;
   padding-top: 1%;
   text-align: center;
   overflow: auto;
   width:21%;
-
 }
 
 .fade {
@@ -460,7 +445,6 @@ nav ul.topnav li.icon {display: none;}
 .fade:hover{
   //border: 1px solid rgba(0, 0, 0, 1);
   opacity: 0.8;
-
 }
 
 .virtual-tour-button {
@@ -679,17 +663,13 @@ nav ul.topnav li.icon {display: none;}
 .abbeyImg img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
-  //display: block;
-  //float:right;
   margin-right: 6%;
   margin-left: 3%;
-  //width: 15%;
 }
 
 .galleryImg img {
   border-radius: 8px;
   box-shadow: 3px 3px 2px 2px #555;
-  //display: block;
   float:right;
   margin-right: 6%;
   margin-left: 3%;
@@ -702,7 +682,6 @@ nav ul.topnav li.icon {display: none;}
   line-height: 200%;
   letter-spacing: .05em;
   padding-right: 6%;
-
 }
 
 .amenitiesParagraph {
