@@ -42,7 +42,7 @@ app.post('/sendemail', function (req, res) {
   to_email = new helper.Email("kmroberts7@gmail.com");
   //kmroberts@gmail.com gets forwarded to hometexas as well so Kathy will get both emails
   //to_email = new helper.Email("trkr6@verizon.net");
-  subject = "Testing VPW email with SendGrid";
+  subject = "Village at Prestonwood Contact";
   content = new helper.Content("text/plain", html);
   mail = new helper.Mail(from_email, subject, to_email, content);
 
