@@ -1117,6 +1117,8 @@ nav ul.topnav li {
     margin-top: 30%; } }
 
 @media screen and (max-width: 420px) {
+  .dynamicText h1 {
+    font-size: .7em; }
   .logo {
     float: none; }
   nav ul {
@@ -1138,3 +1140,7 @@ nav ul.topnav li {
     margin-right: 50px; }
   #form-footer {
     font-size: .9em; } }
+
+@media screen and (max-width: 375px) {
+  .dynamicText h1 {
+    font-size: .55em; } }

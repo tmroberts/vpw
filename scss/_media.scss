@@ -352,43 +352,43 @@ nav ul.topnav li {
 		display: none;
 	}
 
-// nav ul.topnav {
-// 	float: right;
-// }
-//
-// nav ul.topnav li.icon {
-// 	float: left;
-// 	margin-right:20px;
-// 	//display: inline-block;
-// }
-//
-// nav ul.topnav li.icon {
-// 	float: right;
-// 	//display: inline-block;
-// }
-//
-// nav ul.topnav.responsive {
-// 	//position: relative;
-// 	//float: left;
-// 	position: absolute;
-// 	top: 0;
-// 	left: 0
-// }
-// nav ul.topnav.responsive li.icon {
-// 	position: absolute;
-// 	left: 0;
-// 	top: 0;
-//
-// }
+	// nav ul.topnav {
+	// 	float: right;
+	// }
+	//
+	// nav ul.topnav li.icon {
+	// 	float: left;
+	// 	margin-right:20px;
+	// 	//display: inline-block;
+	// }
+	//
+	// nav ul.topnav li.icon {
+	// 	float: right;
+	// 	//display: inline-block;
+	// }
+	//
+	// nav ul.topnav.responsive {
+	// 	//position: relative;
+	// 	//float: left;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0
+	// }
+	// nav ul.topnav.responsive li.icon {
+	// 	position: absolute;
+	// 	left: 0;
+	// 	top: 0;
+	//
+	// }
 
-// nav ul.topnav.responsive li {
-// 	float: none;
-// 	display: inline;
-// }
-// nav ul.topnav.responsive li a {
-// 	display: block;
-// 	text-align: left;
-// }
+	// nav ul.topnav.responsive li {
+	// 	float: none;
+	// 	display: inline;
+	// }
+	// nav ul.topnav.responsive li a {
+	// 	display: block;
+	// 	text-align: left;
+	// }
 
 	.dynamicText h1 {
 		font-size:  .8em;
@@ -453,9 +453,13 @@ nav ul.topnav li {
 
 }
 
-
-
 @media screen and (max-width: 420px) {
+
+	.dynamicText h1 {
+		font-size:  .7em;
+	}
+
+
 	.logo {
 		float:none;
 		//width: auto;
@@ -495,13 +499,22 @@ nav ul.topnav li {
 		font-size: .9em;
 	}
 
-	#form-submit{
+	#form-submit {
 		margin-right: 50px;
-
 	}
 
 	#form-footer {
 		font-size:  .9em;
+	}
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+	.dynamicText h1 {
+		font-size:  .55em;
 	}
 
 }
