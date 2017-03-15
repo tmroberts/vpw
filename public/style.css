@@ -1156,9 +1156,11 @@ nav ul.topnav li {
   #form-footer {
     font-size: .9em; } }
 
-@media screen and (max-width: 420px) and (max-width: 540px) {
+@media screen and (max-width: 540px) {
   input[type="text"] {
-    font-size: .5em; }
+    font-size: .4em;
+    padding-left: 5px;
+    padding-right: 5px; }
   textarea {
     font-size: .5em; }
   input[type="submit"] {
@@ -1166,4 +1168,12 @@ nav ul.topnav li {
 
 @media screen and (max-width: 375px) {
   .dynamicText h1 {
-    font-size: .55em; } }
+    font-size: .55em; }
+  input[type="text"] {
+    font-size: .1em;
+    padding-left: 5px;
+    padding-right: 5px; }
+  textarea {
+    font-size: .1em; }
+  input[type="submit"] {
+    font-size: .5em; } }
