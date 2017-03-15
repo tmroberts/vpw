@@ -1080,9 +1080,16 @@ nav ul.topnav li {
   .dynamicText h1 {
     font-size: 1em; } }
 
+@media screen and (max-width: 610px) {
+  #brand-logo {
+    padding-top: 20%; } }
+
 @media screen and (max-width: 515px) {
   .dynamicText h1 {
-    font-size: .9em; } }
+    font-size: .9em; }
+  #brand-logo {
+    /*  margin-top: 15%;*/
+    padding-top: 25%; } }
 
 @media screen and (max-width: 490px) {
   .left {
