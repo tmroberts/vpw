@@ -1084,6 +1084,14 @@ nav ul.topnav li {
   #brand-logo {
     padding-top: 20%; } }
 
+@media screen and (max-width: 540px) {
+  input[type="text"] {
+    font-size: .7em; }
+  textarea {
+    font-size: .7em; }
+  input[type="submit"] {
+    font-size: .8em; } }
+
 @media screen and (max-width: 515px) {
   .dynamicText h1 {
     font-size: .9em; }
@@ -1147,6 +1155,14 @@ nav ul.topnav li {
     margin-right: 50px; }
   #form-footer {
     font-size: .9em; } }
+
+@media screen and (max-width: 420px) and (max-width: 540px) {
+  input[type="text"] {
+    font-size: .5em; }
+  textarea {
+    font-size: .5em; }
+  input[type="submit"] {
+    font-size: .6em; } }
 
 @media screen and (max-width: 375px) {
   .dynamicText h1 {
