@@ -207,7 +207,6 @@ strong {
 
 /* Navigation */
 nav {
-  background-color: rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 1.0em;
   font-weight: 500;
@@ -248,10 +247,9 @@ nav ul.topnav li a {
 
 nav ul.topnav li a:hover {
   box-sizing: border-box;
-  background-color: #333;
-  color: beige;
-  border-bottom: 2px solid beige;
-  border-top: 2px solid beige;
+  color: rgba(0, 0, 0, 0.75);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
   text-shadow: 0px 0px 0px black; }
 
 nav ul.topnav li.icon {
