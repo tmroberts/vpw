@@ -209,7 +209,7 @@ strong {
 nav {
   background-color: rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
-  font-size: 1em;
+  font-size: 1.0em;
   font-weight: 500;
   position: fixed;
   top: 0;
