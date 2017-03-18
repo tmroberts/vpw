@@ -1,11 +1,13 @@
 # Village at Prestonwood
 
 ## This is a website redesign project for Team Trosclair of Keller Williams in Dallas/Plano, TX.
+
 This is a redesign of http://www.villageatprestonwood.com, a real estate site for an Over 55 Community in Plano, TX.  The original site is a non-responsive, old-style site that has not been updated since it was built.
 
-The new site is being redesigned to be a mobile-first, responsive site.
+The new site has been redesigned to be a mobile-first, responsive site.  The new site was launched in March of 2017.
 
-## The in-process redesign is currently installed at:
-https://village-at-prestonwood.herokuapp.com/index.html
+## The redesign is currently LIVE at:
+http://www.villageatprestonwood.com/index.html
 
-The target release of the redesigned site is March 2017.
+## For comparison, the old site can still be viewed at:
+http://www.villageatprestonwood.net
