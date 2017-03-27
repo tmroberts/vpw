@@ -785,6 +785,34 @@ nav ul.topnav li.icon {
   background-size: cover;
   width: 100%; }
 
+.active-listings {
+  margin-top: 6%; }
+
+.active-listings-button {
+  background-color: #688d34;
+  border-radius: 8px;
+  clear: both;
+  color: #f5f5dc;
+  width: 12em;
+  float: left;
+  font-size: 1.347em;
+  letter-spacing: .1em;
+  display: inline-block;
+  padding: .5em 0.3em;
+  margin-top: 35px;
+  margin-bottom: 10%;
+  text-shadow: 3px 3px 3px black;
+  text-align: center; }
+
+.active-listings-button a {
+  border-radius: 8px;
+  text-decoration: none;
+  color: #FFF;
+  clear: both; }
+
+.active-listings-button:hover {
+  background-color: #5a7a2d; }
+
 /* Section 3 */
 .vpw-heading {
   /*background-color: rgba(255, 255, 255, 0.85);*/
