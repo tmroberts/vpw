@@ -241,7 +241,6 @@ nav ul.topnav li a {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  text-decoration: none;
   padding-top: 6px;
   padding-bottom: 6px; }
 
@@ -647,6 +646,9 @@ nav ul.topnav li.icon {
   line-height: 200%;
   letter-spacing: .05em;
   padding-right: 6%; }
+
+.dynamicText p a {
+  text-decoration: none; }
 
 .dynamicText h1 {
   font-size: 1.7em;

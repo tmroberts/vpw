@@ -69,7 +69,6 @@ nav ul.topnav li a {
   text-align: center;
   //padding: 14px 16px;
   //padding: 10px 0px;
-  text-decoration: none;
   //transition: 0.3s;
   //font-size: 17px;
   padding-top: 6px;
@@ -599,6 +598,10 @@ nav ul.topnav li.icon {display: none;}
   line-height: 200%;
   letter-spacing: .05em;
   padding-right: 6%;
+}
+
+.dynamicText p a {
+  text-decoration: none;
 }
 
 .dynamicText h1 {
