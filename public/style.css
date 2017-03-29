@@ -786,6 +786,7 @@ nav ul.topnav li.icon {
   width: 100%; }
 
 .active-listings {
+  clear: both;
   margin-top: 6%; }
 
 .active-listings-button {
