@@ -4,6 +4,7 @@
 
 @import 'reset';
 @import 'form';
+@import 'virtualtour';
 //@import 'communities';
 
 html, body {
@@ -442,103 +443,6 @@ nav ul.topnav li.icon {display: none;}
   opacity: 0.8;
 }
 
-.virtual-tour-button {
-  border-radius: 8px;
-  display: block;
-  font-size: 1.347em;
-  font-weight: 700;
-  max-width: 250px;
-  width: 10em;
-  margin: 2em auto;
-  padding: .5em 0.5em;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: .1em;
-  background-color: #999999;
-  background-color: #688d34;
-  border: solid 2px #000;
-  color: #f5f5dc;
-  text-shadow: 3px 3px 3px black;
-  opacity: .6;
-  transition: 0.2s;
-	transition-property: bottom;
-}
-
-.virtual-tour-button:hover {
-  background-color: #688d34;
-  border-radius: 8px;
-  border: solid 2px #000;
-  color: #f5f5f5;
-  text-decoration: none;
-  text-shadow: 3px 3px 3px black;
-  opacity: 1;
-}
-
-.no-virtual-tour-button {
-  border-radius: 8px;
-  display: block;
-  font-size: 1.347em;
-  font-weight: 700;
-  max-width: 250px;
-  width: 10em;
-  margin: 2em auto;
-  padding: .5em 0.5em;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: .1em;
-  background-color: #999999;
-  background-color: #688d34;
-  border: solid 2px #000;
-  color: #f5f5dc;
-  text-shadow: 3px 3px 3px black;
-  opacity: .6;
-  transition: 0.2s;
-	transition-property: bottom;
-}
-
-.no-virtual-tour-button:hover {
-  background-color: #688d34;
-  border-radius: 8px;
-  border: solid 2px #000;
-  color: #f5f5f5;
-  text-decoration: none;
-  text-shadow: 3px 3px 3px black;
-  opacity: 1;
-}
-
-.virtual-tour-button-gallery {
-  border-radius: 8px;
-  //display: block;
-  font-size: 1.347em;
-  font-weight: 700;
-  max-width: 250px;
-  width: 10em;
-  margin: 2em auto;
-  padding: .5em 0.5em;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: .1em;
-  background-color: #999999;
-  background-color: #688d34;
-  border: solid 2px #000;
-  color: #f5f5dc;
-  text-shadow: 3px 3px 3px black;
-  opacity: .8;
-  transition: 0.2s;
-	transition-property: bottom;
-}
-
-
-.virtual-tour-button-gallery:hover {
-  background-color: #688d34;
-  border-radius: 8px;
-  border: solid 2px #000;
-  color: #f5f5f5;
-  text-decoration: none;
-  text-shadow: 3px 3px 3px black;
-  opacity: 1;
-}
-
 .container-section2 {
   //outline: 1px solid yellow;
   max-width:85%;
@@ -687,7 +591,6 @@ nav ul.topnav li.icon {display: none;}
   margin-top: 8%;
 }
 
-
 .premier-clubParagraph {
   margin-top: 10%;
 }
@@ -768,7 +671,6 @@ nav ul.topnav li.icon {display: none;}
   width: 100%;
 }
 
-
 // Button to go to Active Listings
 .active-listings {
   margin-top: 6%;
@@ -786,7 +688,6 @@ nav ul.topnav li.icon {display: none;}
  display: inline-block;
  padding: .5em 0.3em;
  margin-top: 35px;
- //margin-bottom: 35px;
  margin-bottom: 10%;
  text-shadow: 3px 3px 3px black;
  text-align:center;
@@ -807,7 +708,6 @@ nav ul.topnav li.icon {display: none;}
 /* Section 3 */
 
 .vpw-heading {
-  /*background-color: rgba(255, 255, 255, 0.85);*/
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
   /*border: 1px solid orange;*/
   padding-top: 15%;

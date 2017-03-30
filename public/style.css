@@ -190,6 +190,95 @@ input[type="submit"]:hover {
 #form-footer {
   color: #f5f5db; }
 
+.virtual-tour-button {
+  border-radius: 8px;
+  display: block;
+  font-size: 1.347em;
+  font-weight: 700;
+  max-width: 250px;
+  width: 10em;
+  margin: 2em auto;
+  padding: .5em 0.5em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: #999999;
+  background-color: #688d34;
+  border: solid 2px #000;
+  color: #f5f5dc;
+  text-shadow: 3px 3px 3px black;
+  opacity: .6;
+  transition: 0.2s;
+  transition-property: bottom; }
+
+.virtual-tour-button:hover {
+  background-color: #688d34;
+  border-radius: 8px;
+  border: solid 2px #000;
+  color: #f5f5f5;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px black;
+  opacity: 1; }
+
+.no-virtual-tour-button {
+  border-radius: 8px;
+  display: block;
+  font-size: 1.347em;
+  font-weight: 700;
+  max-width: 250px;
+  width: 10em;
+  margin: 2em auto;
+  padding: .5em 0.5em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: #999999;
+  background-color: #688d34;
+  border: solid 2px #000;
+  color: #f5f5dc;
+  text-shadow: 3px 3px 3px black;
+  opacity: .6;
+  transition: 0.2s;
+  transition-property: bottom; }
+
+.no-virtual-tour-button:hover {
+  background-color: #688d34;
+  border-radius: 8px;
+  border: solid 2px #000;
+  color: #f5f5f5;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px black;
+  opacity: 1; }
+
+.virtual-tour-button-gallery {
+  border-radius: 8px;
+  font-size: 1.347em;
+  font-weight: 700;
+  max-width: 250px;
+  width: 10em;
+  margin: 2em auto;
+  padding: .5em 0.5em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: #999999;
+  background-color: #688d34;
+  border: solid 2px #000;
+  color: #f5f5dc;
+  text-shadow: 3px 3px 3px black;
+  opacity: .8;
+  transition: 0.2s;
+  transition-property: bottom; }
+
+.virtual-tour-button-gallery:hover {
+  background-color: #688d34;
+  border-radius: 8px;
+  border: solid 2px #000;
+  color: #f5f5f5;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px black;
+  opacity: 1; }
+
 html, body {
   /*border: 3px solid yellow;  */
   font-family: Helvetica, Verdana, sans-serif;
@@ -517,95 +606,6 @@ nav ul.topnav li.icon {
 .fade:hover {
   opacity: 0.8; }
 
-.virtual-tour-button {
-  border-radius: 8px;
-  display: block;
-  font-size: 1.347em;
-  font-weight: 700;
-  max-width: 250px;
-  width: 10em;
-  margin: 2em auto;
-  padding: .5em 0.5em;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: .1em;
-  background-color: #999999;
-  background-color: #688d34;
-  border: solid 2px #000;
-  color: #f5f5dc;
-  text-shadow: 3px 3px 3px black;
-  opacity: .6;
-  transition: 0.2s;
-  transition-property: bottom; }
-
-.virtual-tour-button:hover {
-  background-color: #688d34;
-  border-radius: 8px;
-  border: solid 2px #000;
-  color: #f5f5f5;
-  text-decoration: none;
-  text-shadow: 3px 3px 3px black;
-  opacity: 1; }
-
-.no-virtual-tour-button {
-  border-radius: 8px;
-  display: block;
-  font-size: 1.347em;
-  font-weight: 700;
-  max-width: 250px;
-  width: 10em;
-  margin: 2em auto;
-  padding: .5em 0.5em;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: .1em;
-  background-color: #999999;
-  background-color: #688d34;
-  border: solid 2px #000;
-  color: #f5f5dc;
-  text-shadow: 3px 3px 3px black;
-  opacity: .6;
-  transition: 0.2s;
-  transition-property: bottom; }
-
-.no-virtual-tour-button:hover {
-  background-color: #688d34;
-  border-radius: 8px;
-  border: solid 2px #000;
-  color: #f5f5f5;
-  text-decoration: none;
-  text-shadow: 3px 3px 3px black;
-  opacity: 1; }
-
-.virtual-tour-button-gallery {
-  border-radius: 8px;
-  font-size: 1.347em;
-  font-weight: 700;
-  max-width: 250px;
-  width: 10em;
-  margin: 2em auto;
-  padding: .5em 0.5em;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: .1em;
-  background-color: #999999;
-  background-color: #688d34;
-  border: solid 2px #000;
-  color: #f5f5dc;
-  text-shadow: 3px 3px 3px black;
-  opacity: .8;
-  transition: 0.2s;
-  transition-property: bottom; }
-
-.virtual-tour-button-gallery:hover {
-  background-color: #688d34;
-  border-radius: 8px;
-  border: solid 2px #000;
-  color: #f5f5f5;
-  text-decoration: none;
-  text-shadow: 3px 3px 3px black;
-  opacity: 1; }
-
 .container-section2 {
   max-width: 85%;
   margin: 0 auto;
@@ -786,7 +786,6 @@ nav ul.topnav li.icon {
   width: 100%; }
 
 .active-listings {
-  clear: both;
   margin-top: 6%; }
 
 .active-listings-button {
@@ -816,7 +815,6 @@ nav ul.topnav li.icon {
 
 /* Section 3 */
 .vpw-heading {
-  /*background-color: rgba(255, 255, 255, 0.85);*/
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
   /*border: 1px solid orange;*/
   padding-top: 15%;
