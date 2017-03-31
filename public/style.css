@@ -190,6 +190,9 @@ input[type="submit"]:hover {
 #form-footer {
   color: #f5f5db; }
 
+/* Styling for 55 Retirement Places Contact Form 20161009
+   License: Team Trosclair
+*/
 .virtual-tour-button {
   border-radius: 8px;
   display: block;
@@ -786,7 +789,12 @@ nav ul.topnav li.icon {
   width: 100%; }
 
 .active-listings {
+  clear: both;
   margin-top: 6%; }
+
+.active-listings h1 {
+  clear: both;
+  display: block; }
 
 .active-listings-button {
   background-color: #688d34;

@@ -509,6 +509,7 @@ nav ul.topnav li.icon {display: none;}
 }
 
 .dynamicText h1 {
+  //clear:both;
   font-size:  1.7em;
   font-weight: normal;
   letter-spacing: .05em;
@@ -673,7 +674,13 @@ nav ul.topnav li.icon {display: none;}
 
 // Button to go to Active Listings
 .active-listings {
+  clear:both;
   margin-top: 6%;
+}
+
+.active-listings h1{
+  clear: both;
+  display: block;
 }
 
 .active-listings-button {
