@@ -1,20 +1,15 @@
-/* Media queries for 55 Retirement Places - 20161009
+/* Media queries for VPW circa 03.2017
    License: Team Trosclair
 */
 
 // Landing page box text at 1140px
 @media screen and (max-width: 1140px) {
 	.overlay .heading {
-		//font-size: 1.6em;
 	}
 	.thumbnail {
-		//background-color: #444444;
-		//border: solid 2px #000;
 		border-radius: 8px;
-		//border: 2px solid red;
 		clear: both;
 		display:inline-block;
-		//float: left;
 		margin: 0% 1% 1% 2%;
 		padding-top: 1%;
 		text-align: center;
@@ -27,7 +22,6 @@
 // Landing page box text at 1030px
 @media screen and (max-width: 1030px) {
 	.overlay .heading {
-		//font-size: 1.4em;
 	}
 
 	.scrollingBox {
@@ -37,15 +31,6 @@
 
 // Go to 2-col setup on the main landing pg at 950px
 @media screen and (max-width: 950px) {
-	/*.logo {
-		width: 30%;
-    min-width:30%;
-	}*/
-
-	/*.logo h1 {
-	  padding-left:0px;
-	}*/
-
 	nav ul {
 	  text-align:left;
 	  float:none;
@@ -59,20 +44,16 @@
 	.communities {
 		clear:both;
 	  margin:0 auto;
-		//overflow:auto;
 		text-align:left;
 		float:none;
 		width: 70%;
 	}
 
 	.communities .community {
-		//border-top: solid 1px #000;
-	  //float: none;
 		padding: 20px 20px;
 		padding-top: 20px;
 		padding-bottom: 0px;
 		width: auto;
-		//text-align:left;
 		margin:0 auto;
 
 	}
@@ -116,7 +97,6 @@
 		margin: 0 auto;
 		padding: 40px 20px;
 		float:none;
-		//width:auto;
 		width: 80%;
 	}
 
@@ -160,7 +140,6 @@
 	}
 
 	.main-pic img {
-	  //border: 1px solid red;
 	  border-radius: 8px;
 	  max-width: 80%;
 	  min-width: 200px;
@@ -188,9 +167,6 @@
 			display: block;
 			font-size: 1.0em;
 			font-weight: 700;
-			//background: rgba(245,245,220,1);
-			//color: rgba(18, 78, 121,1);
-			//border: 2px solid transparent;
 			width: 12em;
 			margin: 2em auto 0;
 			padding: 0.9em 1.25em;
@@ -221,7 +197,6 @@
 	// Button to view Listings
 	.listings-button {
 	  margin-top: 15px;
-	  //margin-left: 85px;
 	}
 
 }
@@ -279,9 +254,6 @@ nav ul.topnav li {
 
 	nav ul.topnav li a:hover {
 	  background-color: #333;
-	// 	border-bottom: none;
-	// 	border-top: none;
-	// 	padding: 5px;
 	}
 
 	nav ul.topnav {
@@ -289,13 +261,9 @@ nav ul.topnav li {
 	}
 
 	.thumbnail {
-		//background-color: #444444;
-		//border: solid 2px #000;
 		border-radius: 8px;
-		//border: 2px solid red;
 		clear: both;
 		display:inline-block;
-		//float: left;
 		margin: 0% 1% 1% 2%;
 		padding-top: 1%;
 		text-align: center;
@@ -355,17 +323,14 @@ nav ul.topnav li {
 }
 
 
-
 @media screen and (max-width: 515px) {
 	.dynamicText h1 {
 		font-size:  .9em;
 	}
 
 	#brand-logo {
-	  /*  margin-top: 15%;*/
 	  padding-top: 25%;
 	}
-
 
 }
 
@@ -383,43 +348,6 @@ nav ul.topnav li {
 		display: none;
 	}
 
-	// nav ul.topnav {
-	// 	float: right;
-	// }
-	//
-	// nav ul.topnav li.icon {
-	// 	float: left;
-	// 	margin-right:20px;
-	// 	//display: inline-block;
-	// }
-	//
-	// nav ul.topnav li.icon {
-	// 	float: right;
-	// 	//display: inline-block;
-	// }
-	//
-	// nav ul.topnav.responsive {
-	// 	//position: relative;
-	// 	//float: left;
-	// 	position: absolute;
-	// 	top: 0;
-	// 	left: 0
-	// }
-	// nav ul.topnav.responsive li.icon {
-	// 	position: absolute;
-	// 	left: 0;
-	// 	top: 0;
-	//
-	// }
-
-	// nav ul.topnav.responsive li {
-	// 	float: none;
-	// 	display: inline;
-	// }
-	// nav ul.topnav.responsive li a {
-	// 	display: block;
-	// 	text-align: left;
-	// }
 
 	.dynamicText h1 {
 		font-size:  .8em;
@@ -427,8 +355,6 @@ nav ul.topnav li {
 
 	.dynamicImg img {
 		display:none;
-		//float:left;
-		//margin-left: 25%;
 	}
 
 	.dynamicImg2 img {
@@ -468,18 +394,11 @@ nav ul.topnav li {
 	}
 
 	.virtual-tour-button-gallery {
-	  //border-radius: 8px;
-	  //display: block;
 	  font-size: 1em;
-	  //font-weight: 700;
-	  //max-width: 250px;
-	  //width: 10em;
 		max-width: 80%;
 		width: 70%;
-	  //margin: 2em auto;
 	  padding: .5em 0.5em;
 		margin-top: 30%;
-
 	}
 
 }
@@ -493,7 +412,6 @@ nav ul.topnav li {
 
 	.logo {
 		float:none;
-		//width: auto;
 	}
 
 	//nav {
@@ -578,8 +496,5 @@ nav ul.topnav li {
 		font-size: .5em;
 		margin-left: 20%;
 	}
-
-
-
 
 }

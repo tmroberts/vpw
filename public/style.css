@@ -916,7 +916,7 @@ footer {
   max-height: 45%;
   max-width: 75%; }
 
-/* Media queries for 55 Retirement Places - 20161009
+/* Media queries for VPW circa 03.2017
    License: Team Trosclair
 */
 @media screen and (max-width: 1140px) {
@@ -935,13 +935,6 @@ footer {
     width: 340px; } }
 
 @media screen and (max-width: 950px) {
-  /*.logo {
-		width: 30%;
-    min-width:30%;
-	}*/
-  /*.logo h1 {
-	  padding-left:0px;
-	}*/
   nav ul {
     text-align: left;
     float: none;
@@ -1131,7 +1124,6 @@ nav ul.topnav li {
   .dynamicText h1 {
     font-size: .9em; }
   #brand-logo {
-    /*  margin-top: 15%;*/
     padding-top: 25%; } }
 
 @media screen and (max-width: 490px) {
