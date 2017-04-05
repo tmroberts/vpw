@@ -535,6 +535,10 @@ nav ul.topnav li.icon {
   background-repeat: no-repeat;
   background-position: 50% 60%; }
 
+.arborhillsInfo img {
+  border-radius: 8px;
+  margin-top: 4%; }
+
 .top-image-neighborhood {
   background-color: beige;
   clear: both;
@@ -642,8 +646,7 @@ nav ul.topnav li.icon {
   font-size: .6em;
   line-height: 1em;
   letter-spacing: .1em;
-  margin-bottom: 10%;
-}
+  margin-bottom: 10%; }
 
 .dynamicText p {
   font-size: .9em;

@@ -282,7 +282,6 @@ nav ul.topnav li.icon {display: none;}
   background-color:rgba(245,245,220,1);
   clear:both;
   overflow:auto;
-
   width: 100%;
   height: 500px;
   background-image: url('./images/11_Grounds2.jpg');
@@ -297,7 +296,6 @@ nav ul.topnav li.icon {display: none;}
   background-color:rgba(245,245,220,1);
   clear:both;
   overflow:auto;
-
   width: 100%;
   height: 500px;
   background-image: url('./images/1221706854.jpg');
@@ -329,7 +327,6 @@ nav ul.topnav li.icon {display: none;}
   background-color:rgba(245,245,220,1);
   clear:both;
   overflow:auto;
-
   width: 100%;
   height: 500px;
   background-image: url('./images/06_CommunityCenter_Pool3.jpg');
@@ -338,6 +335,12 @@ nav ul.topnav li.icon {display: none;}
   background-position: 50% 60%;
   //margin-top: 1%;
 }
+
+.arborhillsInfo img {
+  border-radius: 8px;
+  margin-top: 4%;
+}
+
 
 .top-image-neighborhood {
   //border: 2px solid red;
@@ -489,6 +492,7 @@ nav ul.topnav li.icon {display: none;}
   font-size: .6em;
   line-height: 1em;
   letter-spacing: .1em;
+  margin-bottom: 10%;
 }
 
 //.dynamicText img {
