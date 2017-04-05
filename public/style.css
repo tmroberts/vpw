@@ -641,7 +641,9 @@ nav ul.topnav li.icon {
 .smallText {
   font-size: .6em;
   line-height: 1em;
-  letter-spacing: .1em; }
+  letter-spacing: .1em;
+  margin-bottom: 10%;
+}
 
 .dynamicText p {
   font-size: .9em;
