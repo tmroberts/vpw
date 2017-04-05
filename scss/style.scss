@@ -128,6 +128,22 @@ nav ul.topnav li.icon {display: none;}
   margin-left: 2%;
 }
 
+.amenities-square li {
+  //border: 2px solid red;
+  list-style: square;
+  font-size: .9em;
+  font-weight: lighter;
+  line-height: 200%;
+  //letter-spacing: .05em;
+  letter-spacing: .1em;
+  //padding-right: 6%;
+  margin-left: 2%;
+  padding-left: 1%;
+}
+
+
+
+
 /* Section 1 - Landing */
 .sect {
   height: 100%;
@@ -542,6 +558,7 @@ nav ul.topnav li.icon {display: none;}
   font-size:  1.2em;
   font-weight: bold;
 }
+
 
 #dynamic-subtitle {
   font-size:  1em;

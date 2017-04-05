@@ -372,6 +372,15 @@ nav ul.topnav li.icon {
   letter-spacing: .1em;
   margin-left: 2%; }
 
+.amenities-square li {
+  list-style: square;
+  font-size: .9em;
+  font-weight: lighter;
+  line-height: 200%;
+  letter-spacing: .1em;
+  margin-left: 2%;
+  padding-left: 1%; }
+
 /* Section 1 - Landing */
 .sect {
   height: 100%;
