@@ -30,7 +30,7 @@ app.post('/sendemail', function (req, res) {
   var html = 'Name: ' + name + '\r\n \r\n' +
   'Email: ' + email + '\r\n \r\n' +
   'Phone Number: ' + phone + '\r\n \r\n' +
-  'Additional Informtion: ' + info + '\r\n \r\n' ;
+  'Additional Information: ' + info + '\r\n \r\n' ;
   //res.send(html);
 
   // using SendGrid's v3 Node.js Library
