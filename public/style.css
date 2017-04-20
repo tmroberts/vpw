@@ -414,7 +414,6 @@ nav ul.topnav li.icon {
   clear: both; }
 
 #brand-logo {
-  /*  margin-top: 15%;*/
   padding-top: 15%;
   display: flex;
   flex-direction: column;
@@ -431,7 +430,6 @@ nav ul.topnav li.icon {
   margin-top: 5%; }
 
 #brand-subtitle {
-  /*  margin-top: 15%;*/
   color: beige;
   display: flex;
   flex-direction: column;
@@ -870,8 +868,7 @@ nav ul.topnav li.icon {
   background: #201d1c url("images/office-background.jpg") no-repeat center;
   background-size: cover;
   padding: 4em 0;
-  /* this is causing the gap between background images
-  margin-top: 2em;
+  /* this is causing the gap between background images margin-top: 2em;
   */ }
 
 .contact-heading {

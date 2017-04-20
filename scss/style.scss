@@ -142,8 +142,6 @@ nav ul.topnav li.icon {display: none;}
 }
 
 
-
-
 /* Section 1 - Landing */
 .sect {
   height: 100%;
@@ -181,7 +179,6 @@ nav ul.topnav li.icon {display: none;}
 }
 
 #brand-logo {
-  /*  margin-top: 15%;*/
   padding-top: 15%;
   display: flex;
   flex-direction: column;
@@ -201,7 +198,6 @@ nav ul.topnav li.icon {display: none;}
 }
 
 #brand-subtitle {
-  /*  margin-top: 15%;*/
   color:rgba(245,245,220,1);
   //'WhiteSmoke'
   //color: rgba(245,245,245,1);
@@ -377,16 +373,6 @@ nav ul.topnav li.icon {display: none;}
 //     border-radius: 4px;
 //     transition: background-color 0.5s ease-out;
 // }
-
-
-
-
-
-
-
-
-
-
 
 
 .top-image-neighborhood {
@@ -775,7 +761,6 @@ nav ul.topnav li.icon {display: none;}
   background-color: #5a7a2d;
 }
 
-
 /* Section 3 */
 
 .vpw-heading {
@@ -805,8 +790,7 @@ nav ul.topnav li.icon {display: none;}
   background: #201d1c url("images/office-background.jpg") no-repeat center;
   background-size: cover;
   padding: 4em 0;
-  /* this is causing the gap between background images
-  margin-top: 2em;
+  /* this is causing the gap between background images margin-top: 2em;
   */
 }
 
