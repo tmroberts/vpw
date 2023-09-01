@@ -1,14 +1,14 @@
 {
   "name": "vpw",
   "version": "1.0.0",
-  "description": "",
+  "description": "## This is a website redesign project for Team Trosclair of Keller Williams in Dallas/Plano, TX.",
   "main": "gulpfile.js",
   "scripts": {
     "server": "node server/server.js",
     "start": "node server/server.js"
   },
   "engines": {
-    "node": "6.3.1"  
+    "node": "6.3.1"
   },
   "author": "",
   "license": "ISC",
@@ -23,5 +23,13 @@
     "lightbox2": "^2.9.0",
     "request": "^2.79.0",
     "sendgrid": "^4.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmroberts/vpw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tmroberts/vpw/issues"
+  },
+  "homepage": "https://github.com/tmroberts/vpw#readme"
 }
